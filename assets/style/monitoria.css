@@ -1,0 +1,39 @@
+.monitorias {
+    display: grid;
+    height: 120vh;
+    grid-template-columns: 0.6fr 1fr 1fr 0.5fr;
+    grid-template-rows: 18fr 5fr;
+    grid-template-areas: "sidebar video video publi" "sidebar chat chat publi ";
+    margin-top: 110px;
+    grid-gap: 5px;
+}
+
+#sidebar {
+    border-radius: 5px;
+    padding-left: 5px;
+    grid-area: sidebar;
+    background-color: rgb(30, 12, 192);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    line-height: 1.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#video {
+    grid-area: video;
+    background-color: rgb(186, 218, 240);
+    border-radius: 5px;
+}
+
+#chat {
+    grid-area: chat;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+#publi {
+    grid-area: publi;
+    background-color: aqua;
+    border-radius: 5px;
+}
