@@ -1,5 +1,5 @@
     body {
-        background-color: rgb(252, 252, 252);
+        background-color: white;
         text-align: center;
     }
     
@@ -103,7 +103,58 @@
     
     footer {
         grid-area: footer;
-        background-color: rgb(10, 7, 2);
         border-radius: 5px;
+    }
+    /*Login e cadastro*/
+    
+    .cadastro {
+        display: inline-block;
+    }
+    
+    button {
+        margin-top: 110px;
+        background-color: blue;
         color: white;
+        border-color: black;
+        font-family: 'Lato', sans-serif;
+        width: 200px;
+        align-self: center;
+    }
+    /*Contatos*/
+    
+    .contatos {
+        margin-top: 200px;
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        align-content: space-between;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    #email {
+        background-color: rgb(170, 248, 248);
+    }
+    
+    #tel {
+        background-color: rgb(183, 253, 230);
+    }
+    
+    #follow {
+        font-family: Raleway;
+        background-color: rgb(18, 18, 165);
+        color: white;
+    }
+    
+    .social {
+        background-color: powderblue;
+    }
+    
+    .iconSocial:hover {
+        width: 140px;
     }
