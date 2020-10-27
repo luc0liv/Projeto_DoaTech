@@ -1,204 +1,211 @@
+body {
+    background-color: white;
+    text-align: center;
+}
 
 
-   body {
-        background-color: white;
-        text-align: center;
-    }
- /*menu*/   
-    .menu {
-        display: grid;
-        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px;
-        grid-column-gap: 1px;
-        grid-row-gap: 0px;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        margin: 0px;
-        padding: 1px;
-        border: 0px;
-        width: 100%;
-        background-color: rgb(19, 19, 133);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-   .menu a.link {
-        text-decoration: none;
-        color: white;
-        font-family: 'Raleway', sans-serif;
-        font-size: 14pt;
-        margin: 10px;
-        border-radius: 5px;
-    }
+/*menu*/
 
-    .menu  a.link:hover {
-        transition: 0.5s;
-        background-color: rgba(000, 000, 88, 0.8);
-        font-size: 20px;
-        padding:10px;
-      }
-    
-    .logo {
-        width: 100px;
-        margin-top: 2px;
-        margin-left: 0px;
-        border-radius: 10px;
-        align-self: center;
-    }
-    
-    h1 {
-        margin-top: 110px;
-        background-color: lightseagreen;
-        font-family: 'Lato', sans-serif;
-    }
-    
-    h2 {
-        background-color: azure;
-        font-family: 'Lato', sans-serif;
-    }
-    
-    .monitorias {
-        display: grid;
-        height: 120vh;
-        grid-template-columns: 0.6fr 1fr 1fr 0.5fr;
-        grid-template-rows: 18fr 5fr;
-        grid-template-areas: "sidebar video video publi" "sidebar chat chat publi ";
-        margin-top: 110px;
-        grid-gap: 5px;
-    }
-    
-    #sidebar {
-        border-radius: 5px;
-        padding-left: 5px;
-        grid-area: sidebar;
-        background-color: rgb(30, 12, 192);
-        color: white;
-        font-family: 'Lato', sans-serif;
-        text-align: left;
-        line-height: 1.8;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-    #video {
-        grid-area: video;
-        background-color: rgb(186, 218, 240);
-        border-radius: 5px;
-    }
-    
-    #chat {
-        grid-area: chat;
-        background-color: teal;
-        border-radius: 5px;
-    }
-    
-    #publi {
-        grid-area: publi;
-        background-color: aqua;
-        border-radius: 5px;
-    }
-    
-    footer {
-        grid-area: footer;
-        border-radius: 5px;
-        bottom: 0px;
-        width: 100%;
-    }
+.menu {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 1px;
+    border: 0px;
+    width: 100%;
+    background-color: rgb(19, 19, 133);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    
-  
-    .cadastro{
-        height:800px;
-    }
+.menu a.link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    margin: 10px;
+    border-radius: 5px;
+}
 
-    .comoFunciona{
-        height:800px;
-    }
-    /*Contatos*/
-    
-    .contatos {
-        margin-top: 200px;
-        font-size: 20px;
-        font-family: Raleway;
-        font-weight: bold;
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-template-rows: 2fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 10px;
-        align-content: space-between;
-        justify-content: center;
-        margin-bottom: 50px;
-    }
-    
-    #email {
-        background-color: rgb(170, 248, 248);
-    }
-    
-    #tel {
-        background-color: rgb(183, 253, 230);
-    }
+.menu a.link:hover {
+    transition: 0.5s;
+    background-color: rgba(000, 000, 88, 0.8);
+    font-size: 20px;
+    padding: 10px;
+}
 
-    /*rodapé*/
-    
-    #follow {
-        font-family: Raleway;
-        background-color: rgb(18, 18, 165);
-        color: white;
-    }
-    
-    .social {
-        background-color: powderblue;
-    }
-    
-    .social img {
-        width: 110px;
-    }
+.logo {
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 0px;
+    border-radius: 10px;
+    align-self: center;
+}
 
-    .iconSocial:hover {
-        width: 140px;
-    }
+h1 {
+    margin-top: 110px;
+    background-color: lightseagreen;
+    font-family: 'Lato', sans-serif;
+}
 
-    .parceiros{
-        background-color: blue;
-        font-family: raleway;
-        color: white;
+h2 {
+    background-color: azure;
+    font-family: 'Lato', sans-serif;
+}
 
-    }
+.monitorias {
+    display: grid;
+    height: 120vh;
+    grid-template-columns: 0.6fr 1fr 1fr 0.5fr;
+    grid-template-rows: 18fr 5fr;
+    grid-template-areas: "sidebar video video publi" "sidebar chat chat publi ";
+    margin-top: 110px;
+    grid-gap: 5px;
+}
 
-    /*fim do rodapé*/
+#sidebar {
+    border-radius: 5px;
+    padding-left: 5px;
+    grid-area: sidebar;
+    background-color: rgb(30, 12, 192);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    line-height: 1.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    /*form da pag fale conosco*/
+#video {
+    grid-area: video;
+    background-color: rgb(186, 218, 240);
+    border-radius: 5px;
+}
 
-input[type=text],input[type=email], select, textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
+#chat {
+    grid-area: chat;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+#publi {
+    grid-area: publi;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+footer {
+    grid-area: footer;
+    border-radius: 5px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.cadastro {
+    height: 800px;
+}
+
+.comoFunciona {
+    height: 800px;
+}
+
+
+/*Contatos*/
+
+.contatos {
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    align-content: space-between;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#email {
+    background-color: rgb(170, 248, 248);
+}
+
+#tel {
+    background-color: rgb(183, 253, 230);
+}
+
+
+/*rodapé*/
+
+#follow {
+    font-family: Raleway;
+    background-color: rgb(18, 18, 165);
+    color: white;
+}
+
+.social {
+    background-color: powderblue;
+}
+
+.social img {
+    width: 110px;
+}
+
+.iconSocial:hover {
+    width: 140px;
+}
+
+.parceiros {
+    background-color: blue;
+    font-family: raleway;
+    color: white;
+}
+
+
+/*fim do rodapé*/
+
+
+/*form da pag fale conosco*/
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #150b6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #4ed2e9;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.mensagemContato {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: "Lato";
 }
