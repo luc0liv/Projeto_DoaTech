@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+
+/*menu*/
+
+.menu {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 1px;
+    border: 0px;
+    width: 100%;
+    background-color: rgb(19, 19, 133);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu a.link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.menu a.link:hover {
+    transition: 0.5s;
+    background-color: rgba(000, 000, 88, 0.8);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 2px;
+    margin-left: 0px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+h1 {
+    margin-top: 110px;
+    background-color: lightseagreen;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    background-color: azure;
+    font-family: 'Lato', sans-serif;
+}
+
+
+footer {
+    grid-area: footer;
+    border-radius: 5px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+
+
+/*rodapé*/
+
+#follow {
+    font-family: Raleway;
+    background-color: rgb(18, 18, 165);
+    color: white;
+}
+
+.social {
+    background-color: powderblue;
+}
+
+.social img {
+    width: 110px;
+}
+
+.iconSocial:hover {
+    width: 140px;
+}
+
+.parceiros {
+    background-color: blue;
+    font-family: raleway;
+    color: white;
+}
+
+
+/*fim do rodapé*/
+
+
