@@ -104,21 +104,18 @@
     footer {
         grid-area: footer;
         border-radius: 5px;
+        bottom: 0px;
+        width: 100%;
     }
-    /*Login e cadastro*/
+
     
-    .cadastro {
-        display: inline-block;
+  
+    .cadastro{
+        height:800px;
     }
-    
-    button {
-        margin-top: 110px;
-        background-color: blue;
-        color: white;
-        border-color: black;
-        font-family: 'Lato', sans-serif;
-        width: 200px;
-        align-self: center;
+
+    .comoFunciona{
+        height:800px;
     }
     /*Contatos*/
     
@@ -176,34 +173,6 @@
 
     /*form da pag fale conosco*/
 
-input[type=text], select, textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-      }
-input[type=submit] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #45a049;
-      }
-      
-.container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-      }
 input[type=text],input[type=email], select, textarea {
         width: 100%;
         padding: 12px;
