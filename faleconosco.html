@@ -10,23 +10,51 @@
 </head>
 
 <body>
-     <!--Menu-->
-     <nav class="menu">
+    <!--Menu-->
+    <nav class="menu">
         <a href="homepage.html"><img src="./assets/img/Asset 1.png" alt="logo" width="110px" class="logo"></a>
         <a href="comofunciona.html" class="link">Como funciona</a>
         <a href="cadastrologin.html" class="link">Cadastre-se/Login </a>
         <a href="monitoria.html" class="link">Página de Monitorias</a>
         <a href="faleconosco.html" class="link">Fale conosco</a>
     </nav>
-     <!--fim do menu-->
-     
+    <!--fim do menu-->
+
     <main class="contatos">
         <div id="email"><img src="./assets/img/new-email.png" alt="email" width="40px">Email: boraestudar@boraestudar.com</div>
         <div id="tel"><img src="./assets/img/phone-call.png" alt="telefone" width="40px">Telefone: (21) 23232323</div>
 
         <!--Adicionar um formulário com caixa de mensagem-->
-
     </main>
+
+    <div class="mensagemContato">
+        <form>
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome...">
+
+            <label for="lname">Sobrenome</label>
+            <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome...">
+            <label for="email">E-mail</label>
+            <input type="mail" id="email" name="email" placeholder="Seu e-mail...">
+
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                <option value="rio">Rio de Janeiro</option>
+                <option value="saopaulo">São Paulo</option>
+                <option value="minas">Minas Gerais</option>
+                <option value="espirito">Espírito Santo</option>
+              </select>
+
+            <label for="assunto">Mensagem</label>
+            <textarea id="assunto" name="assunto" placeholder="Escreva algo..." style="height:200px"></textarea>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+
     <br>
     <br>
     <br>
