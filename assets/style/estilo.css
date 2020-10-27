@@ -1,9 +1,10 @@
-    body {
+
+
+   body {
         background-color: white;
         text-align: center;
     }
-    /*menu*/
-    
+ /*menu*/   
     .menu {
         display: grid;
         grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
@@ -25,7 +26,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
-    .menu a.link {
+   .menu a.link {
         text-decoration: none;
         color: white;
         font-family: 'Raleway', sans-serif;
@@ -33,13 +34,13 @@
         margin: 10px;
         border-radius: 5px;
     }
-    
-    .menu a.link:hover {
+
+    .menu  a.link:hover {
         transition: 0.5s;
         background-color: rgba(000, 000, 88, 0.8);
         font-size: 20px;
-        padding: 10px;
-    }
+        padding:10px;
+      }
     
     .logo {
         width: 100px;
@@ -64,8 +65,8 @@
         display: grid;
         height: 120vh;
         grid-template-columns: 0.6fr 1fr 1fr 0.5fr;
-        grid-template-rows: 18fr 5fr 10fr;
-        grid-template-areas: "sidebar video video publi" "sidebar chat chat publi " "footer footer footer footer";
+        grid-template-rows: 18fr 5fr;
+        grid-template-areas: "sidebar video video publi" "sidebar chat chat publi ";
         margin-top: 110px;
         grid-gap: 5px;
     }
@@ -121,41 +122,6 @@
     }
     /*Contatos*/
     
-    .mensagemContato {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
-    
-    input[type=text],
-    select,
-    textarea,
-    {
-        width: 100%;
-        padding: 12px;
-        border: 0.5px solid blue;
-        border-radius: 5px;
-        box-sizing: border-box;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        resize: horizontal;
-    }
-    
-    input[type=mail] {}
-    
-    input[type=submit] {
-        background-color: #6f7792;
-        color: rgb(5, 3, 3);
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    
-    input[type=submit]:hover {
-        background-color: white;
-    }
-    
     .contatos {
         margin-top: 200px;
         font-size: 20px;
@@ -178,6 +144,8 @@
     #tel {
         background-color: rgb(183, 253, 230);
     }
+
+    /*rodapé*/
     
     #follow {
         font-family: Raleway;
@@ -189,6 +157,79 @@
         background-color: powderblue;
     }
     
+    .social img {
+        width: 110px;
+    }
+
     .iconSocial:hover {
         width: 140px;
     }
+
+    .parceiros{
+        background-color: blue;
+        font-family: raleway;
+        color: white;
+
+    }
+
+    /*fim do rodapé*/
+
+    /*form da pag fale conosco*/
+
+input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+.container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+input[type=text],input[type=email], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

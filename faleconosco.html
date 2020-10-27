@@ -10,24 +10,26 @@
 </head>
 
 <body>
-    <!--Menu-->
-    <nav class="menu">
+     <!--Menu-->
+     <nav class="menu">
         <a href="homepage.html"><img src="./assets/img/Asset 1.png" alt="logo" width="110px" class="logo"></a>
         <a href="comofunciona.html" class="link">Como funciona</a>
         <a href="cadastrologin.html" class="link">Cadastre-se/Login </a>
         <a href="monitoria.html" class="link">Página de Monitorias</a>
         <a href="faleconosco.html" class="link">Fale conosco</a>
     </nav>
-    <!--fim do menu-->
-
+     <!--fim do menu-->
+     
     <main class="contatos">
         <div id="email"><img src="./assets/img/new-email.png" alt="email" width="40px">Email: boraestudar@boraestudar.com</div>
         <div id="tel"><img src="./assets/img/phone-call.png" alt="telefone" width="40px">Telefone: (21) 23232323</div>
 
         <!--Adicionar um formulário com caixa de mensagem-->
-    </main>
 
-    <div class="mensagemContato">
+    </main>
+ 
+
+    <!-- <div class="mensagemContato">
         <form>
 
             <label for="name">Nome</label>
@@ -52,44 +54,47 @@
             <input type="submit" value="Enviar">
 
         </form>
-    </div>
+    </div> -->
 
+    <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div id="follow">Siga-nos em nossas redes sociais:</div>
-    <section class="social">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <a href="https://www.youtube.com/"><img src="./assets/img/ytb.png" class="iconSocial" alt="youtube" width="110px"></a>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email_campo" name="email"  placeholder="Coloque seu e-email">
 
-        <a href="https://twitter.com/home"><img src="./assets/img/twtr.png" class="iconSocial" alt="twitter" width="110px"></a>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="riodeJaneiro">Rio de Janeiro</option>
+      <option value="saoPaulo">São Paulo</option>
+      <option value="minasGerais">Minas Gerais</option>
+    </select>
 
-        <a href="https://www.instagram.com"><img src="./assets/img/insta.png" class="iconSocial" alt="insta" width="110px"></a>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-        <a href="https://www.facebook.com"><img src="./assets/img/fbk.png" class="iconSocial" alt="facebook" width="110px"></a>
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
-    </section>
+      <!--Inicio do rodapé-->
+      <footer>
+        <div id="follow">Siga-nos em nossas redes sociais:</div>
+        <div class="social">
+        <a href="https://www.youtube.com/"><img src="./assets/img/ytb.png" class="iconSocial" alt="youtube"></a>
 
-    <footer>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        <a href="https://twitter.com/home"><img src="./assets/img/twtr.png" class="iconSocial" alt="twitter"></a>
+
+        <a href="https://www.instagram.com"><img src="./assets/img/insta.png" class="iconSocial" alt="insta"></a>
+
+        <a href="https://www.facebook.com"><img src="./assets/img/fbk.png" class="iconSocial" alt="facebook"></a>
+        </div>
     </footer>
+    <!--Fim do rodapé-->
 </body>
 
 </html>
