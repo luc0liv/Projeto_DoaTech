@@ -1,9 +1,11 @@
-    body {
+
+
+   body {
         background-color: white;
         text-align: center;
     }
-    
-    nav {
+ /*menu*/   
+    .menu {
         display: grid;
         grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 100px;
@@ -24,7 +26,7 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
-    a.link {
+   .menu a.link {
         text-decoration: none;
         color: white;
         font-family: 'Raleway', sans-serif;
@@ -32,15 +34,13 @@
         margin: 10px;
         border-radius: 5px;
     }
-    
-    .link:hover {
-        width: 350;
-        background-color: black;
-    }
-    
-    li {
-        list-style: none;
-    }
+
+    .menu  a.link:hover {
+        transition: 0.5s;
+        background-color: rgba(000, 000, 88, 0.8);
+        font-size: 20px;
+        padding:10px;
+      }
     
     .logo {
         width: 100px;
