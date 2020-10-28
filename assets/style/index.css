@@ -2,13 +2,12 @@
     --primary-color: #302AE6;
     --secondary-color: #536390;
     --font-color: #424242;
-    --font-color: rgba(0,0,200,0.6);
+    --font-color: rgba(0, 0, 200, 0.6);
     --bg-color: #fff;
     --heading-color: #292922;
-    --menu-bg:rgb(19, 19, 133);
-    --menu-bg-color:white;
-    --menu-hover-bg:rgba(000, 000, 88, 0.8);
-  
+    --menu-bg: rgb(19, 19, 133);
+    --menu-bg-color: white;
+    --menu-hover-bg: rgba(000, 000, 88, 0.8);
 }
 
 [data-theme="dark"] {
@@ -17,16 +16,13 @@
     --font-color: #e1e1ff;
     --bg-color: #161625;
     --heading-color: #818cab;
-    
-    
 }
 
 body {
-   background-color: var(--bg-color);
-   color: var(--font-color);
-   text-align: center;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    text-align: center;
 }
-
 
 
 /*menu*/
@@ -48,7 +44,7 @@ body {
     padding: 1px;
     border: 0px;
     width: 100%;
-    background-color:var(--menu-bg);
+    background-color: var(--menu-bg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -87,16 +83,12 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 
-
 footer {
     grid-area: footer;
     border-radius: 5px;
     bottom: 0px;
     width: 100%;
 }
-
-
-
 
 
 /*rodapé*/
@@ -112,11 +104,12 @@ footer {
 }
 
 .social img {
-    width: 110px;
+    width: 80px;
 }
 
 .iconSocial:hover {
-    width: 140px;
+    width: 90px;
+    transition: 0.5s;
 }
 
 .parceiros {
@@ -125,43 +118,46 @@ footer {
     color: white;
 }
 
-.intro{
-  height:70vh;
+.intro {
+    height: 70vh;
 }
 
 
 /*fim do rodapé*/
 
+
 /*Simple css to style it like a toggle switch*/
-.tema{
-  position:fixed;
-  width:100px;
-  height:100px;
-  right:0px;
-  top:35px;
+
+.tema {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 35px;
 }
 
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
-  }
-   .ativado{
-      margin-left: 10px;
-      font-size: 1rem;
-    }
-    
-  .theme-switch {
+}
+
+.ativado {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.theme-switch {
     display: inline-block;
     height: 34px;
     position: relative;
     width: 60px;
-  }
-  
-   .theme-switch input {
-    display:none;
-  } 
-  
-   .slider {
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
     background-color: #ccc;
     bottom: 0;
     cursor: pointer;
@@ -170,9 +166,9 @@ footer {
     right: 0;
     top: 0;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     background-color: #fff;
     bottom: 4px;
     content: "";
@@ -181,26 +177,23 @@ footer {
     position: absolute;
     transition: .5s;
     width: 26px;
-  }
-  input:checked + .slider {
-   background-color: #66bb6a;
-  
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider {
+    background-color: #66bb6a;
+}
+
+input:checked+.slider:before {
     transform: translateX(26px);
-    
-  }
-  
-  .slider.round {
+}
+
+.slider.round {
     border-radius: 34px;
-  
-  }
-  
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-  }
-  /*fim*/
-  
+}
 
 
+/*fim*/
