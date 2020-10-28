@@ -1,7 +1,33 @@
-body {
-    background-color: white;
-    text-align: center;
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --font-color: rgba(0,0,200,0.6);
+    --bg-color: #fff;
+    --heading-color: #292922;
+    --menu-bg:rgb(19, 19, 133);
+    --menu-bg-color:white;
+    --menu-hover-bg:rgba(000, 000, 88, 0.8);
+  
 }
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+   
+   
+    
+}
+
+body {
+   background-color: var(--bg-color);
+   color: var(--font-color);
+   text-align: center;
+}
+
 
 
 /*menu*/
@@ -23,13 +49,13 @@ body {
     padding: 1px;
     border: 0px;
     width: 100%;
-    background-color: rgb(19, 19, 133);
+    background-color:var(--menu-bg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu a.link {
     text-decoration: none;
-    color: white;
+    color: var(--menu-bg-color);
     font-family: 'Raleway', sans-serif;
     font-size: 14pt;
     margin: 10px;
@@ -38,7 +64,7 @@ body {
 
 .menu a.link:hover {
     transition: 0.5s;
-    background-color: rgba(000, 000, 88, 0.8);
+    background-color: var(--menu-hover-bg);
     font-size: 20px;
     padding: 10px;
 }
@@ -100,7 +126,82 @@ footer {
     color: white;
 }
 
+.intro{
+  height:70vh;
+}
+
 
 /*fim do rodapé*/
+
+/*Simple css to style it like a toggle switch*/
+.tema{
+  position:fixed;
+  width:100px;
+  height:100px;
+  right:0px;
+  top:35px;
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+  }
+   .ativado{
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+    
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+   .theme-switch input {
+    display:none;
+  } 
+  
+   .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .5s;
+    width: 26px;
+  }
+  input:checked + .slider {
+   background-color: #66bb6a;
+  
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+    
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /*fim*/
+  
 
 

@@ -63,6 +63,7 @@ input[type=submit]:hover {
     font-family: "Lato"; 
     margin: auto;
     align-items: center;
+    margin-bottom: 25px;
     
 }
 
