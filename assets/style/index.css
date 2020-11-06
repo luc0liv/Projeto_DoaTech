@@ -24,6 +24,11 @@ body {
     text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 /*menu*/
 
@@ -119,7 +124,7 @@ footer {
 }
 
 .intro {
-    height: 70vh;
+    height: 80vh;
 }
 
 
