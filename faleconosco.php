@@ -1,5 +1,5 @@
 <?php
-$hostName = "localhost";
+$hostName = "127.0.0.1";
 $username = "root";
 $password = "";
 $database = "boraestudar";
@@ -10,7 +10,18 @@ $conn = mysqli_connect($hostName, $username, $password, $database);
 if(!$conn){
 	die("A conexão ao BD falhou " . mysqli_connect_error());
 }
+if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['email']) && isset($_POST['estado']) && isset($_POST['subject'])){
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
+    $estado = $_POST['estado'];
+    $subject = $_POST['subject'];
+    
+    $sql = "insert into contato (firstname, lastname, email, estado, subject) values ('$firstname','$lastname', '$email', '$estado', '$subject')";
+    $result = $conn->query($sql);
+}
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
