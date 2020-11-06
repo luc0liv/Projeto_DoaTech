@@ -1,3 +1,4 @@
+<!-- A conexão com o BD ainda não está funcionando-->
 <?php 
 $servername = "127.0.0.1";
 $username = "root";
@@ -55,6 +56,7 @@ if(isset($_POST['monnome']) && isset($_POST['monnasc']) && isset($_POST['monensi
         <a href="faleconosco.php" class="link">Fale conosco</a>
     
      <!--fim do menu-->
+
      <!-- Inicio do switch -->
 	<div class="tema">
         <div class="theme-switch-wrapper">
