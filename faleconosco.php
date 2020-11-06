@@ -32,7 +32,7 @@ if(!$conn){
         <a href="comofunciona.html" class="link">Como funciona</a>
         <a href="cadastrologin.html" class="link">Cadastre-se/Login </a>
         <a href="monitoria.html" class="link">Página de Monitorias</a>
-        <a href="faleconosco.html" class="link">Fale conosco</a>
+        <a href="faleconosco.php" class="link">Fale conosco</a>
     </nav>
     <!--fim do menu-->
 
