@@ -51,7 +51,7 @@ if(!$conn){
         <div id="email"><img src="./assets/img/new-email.png" alt="email" width="40px">Email: boraestudar@boraestudar.com</div>
         <div id="tel"><img src="./assets/img/phone-call.png" alt="telefone" width="40px">Telefone: (21) 23232323</div>
 
-        <!--Adicionar um formulário com caixa de mensagem-->
+      
 
     </main>
 
