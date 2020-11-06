@@ -50,7 +50,6 @@ if(isset($_POST['monnome']) && isset($_POST['monnasc']) && isset($_POST['monensi
      <!--Menu-->
      <header><nav class="menu">
         <a href="homepage.html"><img src="./assets/img/Asset 1.png" alt="logo" width="110px" class="logo"></a>
-        <a href="comofunciona.html" class="link">Como funciona</a>
         <a href="cadastrologin.html" class="link">Cadastre-se/Login </a>
         <a href="monitoria.html" class="link">Página de Monitorias</a>
         <a href="faleconosco.php" class="link">Fale conosco</a>

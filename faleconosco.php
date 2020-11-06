@@ -1,11 +1,11 @@
 <?php
-$hostName = "127.0.0.1";
+$servername = "127.0.0.1";
 $username = "root";
 $password = "";
 $database = "boraestudar";
 
 //criando a conexão 
-$conn = mysqli_connect($hostName, $username, $password, $database);
+$conn = mysqli_connect($servername, $username, $password, $database);
 
 if(!$conn){
 	die("A conexão ao BD falhou " . mysqli_connect_error());
@@ -39,8 +39,7 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['emai
 <body>
     <!--Menu-->
     <nav class="menu">
-        <a href="homepage.html"><img src="./assets/img/Asset 1.png" alt="logo" width="110px" class="logo"></a>
-        <a href="comofunciona.html" class="link">Como funciona</a>
+        <a href="homepage.html"><img src="./assets/img/Asset 1.png" alt="logo" width="110px" class="logo"></a>       
         <a href="cadastrologin.html" class="link">Cadastre-se/Login </a>
         <a href="monitoria.html" class="link">Página de Monitorias</a>
         <a href="faleconosco.php" class="link">Fale conosco</a>
@@ -68,28 +67,28 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['emai
 
 
     <div class="mensagemContato">
-        <form action="/action_page.php">
-            <label for="fname">Nome</label>
-            <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+        <form method="post" action="">
+            <h4>Nome</h4>
+            <input type="text" name="firstname" placeholder="Seu nome...">
 
-            <label for="lname">Sobrenome</label>
-            <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome...">
+            <h4>Sobrenome:</h4>
+            <input type="text"  name="lastname" placeholder="Seu sobrenome...">
 
-            <label for="email">Email</label>
-            <input type="email" id="email_campo" name="email" placeholder="Coloque seu e-email">
+           <h4> E-mail:</h4>
+            <input type="email" name="email" placeholder="Coloque seu e-email">
 
-            <label for="estado">Estado</label>
-            <select id="estado" name="estado">
+           <h4>Estado:</h4>
+            <select  name="estado">
       <option value="riodeJaneiro">Rio de Janeiro</option>
       <option value="saoPaulo">São Paulo</option>
       <option value="minasGerais">Minas Gerais</option>
       <option value="espiritoS">Espírito Santo</option>
     </select>
 
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
+          <h4> Mensagem:</h4>
+            <textarea  name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
 
-            <input type="submit" value="Enviar">
+            <input type="submit" id="botao" value="Enviar">
         </form>
     </div>
 
