@@ -1,6 +1,6 @@
 <!-- A conexão com o BD ainda não está funcionando-->
 <?php 
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $database = "bancodosquad";
@@ -23,7 +23,7 @@ if(isset($_POST['monnome']) && isset($_POST['monnasc']) && isset($_POST['monensi
     $monsenha = $_POST['monsenha'];
     
     
-    $sql = "insert into monitores ('monnome', 'monnasc', 'monensino', 'monmat', 'moncpf', 'monemail', 'montel', 'monsenha') values ('$monnome','$monnasc', '$monensino','$monmat','$moncpf', '$monemail', '$montel', '$monsenha')";
+    $sql = "insert into monitores (monnome, monnasc, monensino, monmat, moncpf, monemail, montel, monsenha) values ('$monnome','$monnasc', '$monensino','$monmat','$moncpf', '$monemail', '$montel', '$monsenha')";
     $result = $conn->query($sql);
 }
 
