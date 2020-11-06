@@ -1,6 +1,6 @@
-<!-- A conexão com o BD ainda não está funcionando-->
+
 <?php 
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username = "root";
 $password = "";
 $database = "bancodosquad";
@@ -73,7 +73,7 @@ if(isset($_POST['monnome']) && isset($_POST['monnasc']) && isset($_POST['monensi
 <div class="container">
         <form method="post" action="" class="monitorando">
             <h4>Nome:</h4> 
-            <input type="text" style="width: 400px;" name="monome"><br> 
+            <input type="text" style="width: 400px;" name="monnome"><br> 
             <h4>Data de Nascimento:
             </h4>
             <input type="date" style="width: 400px;" name="monnasc">
