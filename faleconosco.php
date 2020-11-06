@@ -1,3 +1,17 @@
+<?php
+$hostName = "localhost";
+$username = "root";
+$password = "";
+$database = "boraestudar";
+
+//criando a conexão 
+$conn = mysqli_connect($hostName, $username, $password, $database);
+
+if(!$conn){
+	die("A conexão ao BD falhou " . mysqli_connect_error());
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
