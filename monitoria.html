@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/style/index.css">
     <link rel="stylesheet" type="text/css" href="./assets/style/monitoria.css">
     <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
+    <script defer type="text/javascript" src="./assets/scripts/monit.js"></script>
 
 </head>
 
@@ -16,7 +17,6 @@
     <!--Menu-->
     <nav class="menu">
         <a href="homepage.html"><img src="./assets/img/Asset 1.png" alt="logo" width="110px" class="logo"></a>
-        <a href="comofunciona.html" class="link">Como funciona</a>
         <a href="cadastrologin.html" class="link">Cadastre-se/Login </a>
         <a href="monitoria.html" class="link">Página de Monitorias</a>
         <a href="faleconosco.php" class="link">Fale conosco</a>
@@ -37,13 +37,18 @@
     <!--Conteúdo da página de monitorias-->
     <main>
         <div class="monitorias">
+
             <!--Menu/Matérias-->
             <section id="sidebar">
                 <h4>Monitorias disponíveis:</h4>
-                <div>Português</div>
+                <!--Início da exemplificação: videoconferencia-->
+                <!--Tive que botar o estilo inline pq não estava funcionando separadamente-->
+                <div><a href="portugues.html" class="materias" style="text-decoration: none; color: white; padding: 10px;" onmouseover="matOn(this)" onmouseout="matOff(this)">Português</a></div>
+                <div><a href="matematica.html" class="materias" style="text-decoration: none; color: white; padding: 10px;" onmouseover="matOn(this)" onmouseout="matOff(this)">Matemática</a></div>
+                <!--Fim da exemplificação: videoconferencia-->
                 <div>Redação</div>
                 <div>Literatura</div>
-                <div>Matemática</div>
+
                 <div>Química</div>
                 <div>Física</div>
                 <div>Biologia</div>
@@ -60,7 +65,7 @@
             </section>
             <!--Fim Menu/Matérias-->
             <!--Aqui entra a parte de vídeo da monitoria-->
-            <div id="video">Video</div>
+            <div id="video"> <img src="./assets/img/slide1.gif" width="600px" class="bannerC"></div>
             <!--Aqui entra a parte do chat entre alunoXmonitor-->
             <div id="chat">Chat</div>
             <!--Espaço reservado para publicidade-->
