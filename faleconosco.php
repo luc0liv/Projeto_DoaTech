@@ -1,4 +1,4 @@
-<?php
+<!--?php
 $servername = "127.0.0.1";
 $username = "root";
 $password = "";
@@ -20,7 +20,7 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['emai
     $sql = "insert into contato (firstname, lastname, email, estado, subject) values ('$firstname','$lastname', '$email', '$estado', '$subject')";
     $result = $conn->query($sql);
 }
-?>
+?>-->
 
 
 <!DOCTYPE html>

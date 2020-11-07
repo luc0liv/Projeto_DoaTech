@@ -1,9 +1,9 @@
 
 <?php 
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$database = "bancodosquad";
+$servername = "sql103.byetcluster.com";
+$username = "epiz_27131363";
+$password = "VWj6M6BWv5sz5B";
+$database = "epiz_27131363_bancodosquad";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
