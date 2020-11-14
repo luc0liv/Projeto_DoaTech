@@ -1,6 +1,6 @@
 <!--Conexao do banco de dados--> 
 <?php include_once('conexaobd.php');?> 
-php
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
