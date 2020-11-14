@@ -1,0 +1,236 @@
+:root {
+    --primary-color: #302AE6;
+    --primary-color-font: #fff;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --bg-header-color:#151520;
+    --bg-button-color:#151520;
+   
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --primary-color-font: #161620;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --bg-button-color:rgba(000, 000, 88, 0.8);
+    
+}
+/* .botao{
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+.botao {
+
+    /*text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    background-color:var(--primary-color);
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    margin-top: 30px;
+    cursor: pointer;    */
+    width: 20rem;
+    height: 7rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+    font: 700 2.4rem Archivo;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--primary-color-font);
+    background-color:var(--bg-button-color);
+    border:none;
+    outline:none;
+    transition: background 0.2s;
+}
+
+.botao:hover{
+    background-color:var(--secondary-color);
+    cursor: pointer;
+    border: none;
+    outline:none;
+}
+
+.button--dark {
+    background-color:#000;
+}
+.button--dark:hover {
+    background-color:var(--secondary-color);;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    /* background-color:#ccc; */
+    background-color:white ;
+    /* background-image: url(./assets/img/slide1.gif); */
+    background-image: url(../img/slide1.gif);
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+.banner .sliders {
+
+    width: 1000vw;
+    height: 100%;
+
+}
+
+.banner .slide {
+
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    /* background-color: rgba(0,0,0,0.8); */
+
+}
+
+.banner .slideArea {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:var(--bg-header-color);
+    flex-direction: column;
+
+}
+
+.banner h1 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 50px;
+
+}
+
+.banner h1 span {
+
+    color: rgba(000,000,200,0.8);
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner .sliders_pointers{
+
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.banner .pointer {
+
+    display: flex;
+    border-radius: 40px;
+    border: 3px solid rgba(000,000,200,0.8);
+    width:15px;
+    height:15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.banner .pointer:hover{
+
+    background-color:var(--secondary-color);
+}
+
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+button {
+  background-color: rgba(0,0,200,0.8);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.esqueceubtn {
+  width: 41%;
+  margin: 4%;
+  padding: 10px 18px;
+  background-color: rgba(0,0,200,0.8);
+}
+
+.cadastrobtn {
+    width: 41%;
+    margin: 4%;
+  padding: 10px 18px;
+  background-color: rgba(0,0,200,0.8);;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.container {
+  padding: 16px;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.cadastro {
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 25px;
+}
+
+.close{
+    width:20%;
+}
