@@ -135,7 +135,7 @@
 
 #formulario {
   width: 50%;
-  height: 70%;
+  height: 65%;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -152,6 +152,7 @@
   
 }
 #TextA{
+    position: relative;
     width: 100%;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -164,7 +165,7 @@
 
 #TextArea {
     width: 100%;
-    height: 350px;
+    height: 180px; 
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -192,4 +193,5 @@
 
 form{
     text-align: center;
+   
 }
