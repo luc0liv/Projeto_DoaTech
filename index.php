@@ -89,8 +89,8 @@
              </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          <button type="button" class="btn btn-primary">Cadastro</button>
+          <a class="btn btn-primary"  href="./cadastroaluno.php">Cadastro Aluno</a>
+          <a class="btn btn-primary"  href="./cadastromonitor.php">Cadastro Monitor</a>
           <button type="button" class="btn btn-primary">Esqueceu a senha?</button>
         </div>
       </div>
