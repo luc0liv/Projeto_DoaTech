@@ -13,7 +13,7 @@ php
     <link rel="stylesheet" type="text/css" href="./assets/css/comoFunciona.css">
     <title>Como Funciona</title>
 </head>
-<body>
+<body class="gradiente">
     <header>
         <div class="header">
             <div class="logo">
@@ -38,20 +38,21 @@ php
       <article id="artigo">
         <span>Bora Estudar</span>
         é uma plataforma de monitorias <b>100% gratuita.</b> <br>
-        Nossa principal missão é levar o conhecimento à quem mais precisa.
-        O que nos move é a vontade de ver todos crescendo com as mesmas oportunidades.
-        Foi criada pensando em alunos que não podem arcar com os custos de monitorias particulares.
-        Os nossos monitores são alunos do ensino superior em busca de experiência profissional.
+        Nossa principal missão é levar o conhecimento à quem mais precisa.<br>
+        O que nos move é a vontade de ver todos crescendo com as mesmas oportunidades.<br>
+        Foi criada pensando em alunos que não podem arcar com os custos de monitorias particulares.<br>
+        Os nossos monitores são alunos do ensino superior em busca de experiência profissional.<br>
         É um espaço para troca de conhecimento!
       </article>
 
-        <h2 id="Contitulo">Alguns dos nossos cursos:</h2>  
+        <h2 id="Contitulo">Algumas de nossas modalidades:</h2>  
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
           </ol>
       
           <!-- Wrapper for slides -->
@@ -63,7 +64,13 @@ php
                <img src="./assets/img/legislacao.png"  alt="Legislação" style="width:100%;">
               <span>Imagem de <a href="https://pixabay.com/pt/users/artsybeekids-392631/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5665879">Venita Oberholster</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5665879">Pixabay</a></span>
             </div>
-      
+
+            <div class="item">
+              <h1 class="carousel_titulo">Assistência em trabalhos escolares</h1>
+              <img src="./assets/img/deverdecasa.jpg" alt="Dever de casa" style="width:100%;">
+              <span>Imagem de <a href="https://pixabay.com/pt/users/tjevans-5937713/">TJ Evans</a> por <a href="https://pixabay.com/pt/photos/lição-de-casa-escola-problema-2521144/">Pixabay</a></span>
+            </div>
+
             <div class="item">
               <h1 class="carousel_titulo">Empreendedorismo</h1>
               <img src="./assets/img/Empreendedorismo.png" alt="Empreendedorismo" style="width:100%;">
@@ -75,7 +82,10 @@ php
               <img src="./assets/img/Informática_e_Tecnologia.jpg" alt="Informática e Tecnologia" style="width:100%;">
               <span>Imagem de <a href="https://pixabay.com/pt/users/joffi-1229850/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1685092">joffi</a> por <a href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1685092">Pixabay</a></span>
             </div>
+           
+
           </div>
+          
       
           <!-- Left and right controls -->
           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
