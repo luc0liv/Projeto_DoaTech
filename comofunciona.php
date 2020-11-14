@@ -1,3 +1,6 @@
+<!--Conexao do banco de dados--> 
+<?php include_once('conexaobd.php');?> 
+php
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,16 +17,16 @@
     <header>
         <div class="header">
             <div class="logo">
-                <a href="index.html"><img class="logoimg" src="./assets/img/Asset 1.png"></a>              
+                <a href="index.php"><img class="logoimg" src="./assets/img/Asset 1.png"></a>              
             </div>
 
             <div class="menu">
                 <img class="menu-opener" src="./assets/img/menu.png"/>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Página inicial</a></li>
-                        <li><a href="comoFunciona.html">Como Funciona</a></li>
-                        <li><a href="faleConosco.html">Fale Conosco</a></li>
+                        <li><a href="index.php">Página inicial</a></li>
+                        <li><a href="comoFunciona.php">Como Funciona</a></li>
+                        <li><a href="faleConosco.php">Fale Conosco</a></li>
                     </ul>
                 </nav>
             </div>
