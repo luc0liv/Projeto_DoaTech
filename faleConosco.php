@@ -26,7 +26,7 @@
                     <nav>
                         <ul>
                             <li><a href="index.php">Página inicial</a></li>
-                            <li><a href="comoFunciona.php">Como Funciona</a></li>
+                            <li><a href="comofunciona.php">Como Funciona</a></li>
                             <li><a href="faleConosco.php">Fale Conosco</a></li>
                         </ul>
                     </nav>

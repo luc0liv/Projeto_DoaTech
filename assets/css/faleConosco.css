@@ -133,6 +133,13 @@
     }
   }
 
+  #formulario2{
+
+    /* border: solid red 2px; */
+    background-color: #302AE6;
+    
+    }
+
 #formulario {
   width: 50%;
   height: 65%;
@@ -151,6 +158,12 @@
   margin-top:15px;
   
 }
+
+
+
+
+
+
 #TextA{
     position: relative;
     width: 100%;
@@ -161,6 +174,7 @@
     background-color: #f8f8f8;
     font-size: 16px;
 }
+
 
 
 #TextArea {
@@ -188,6 +202,7 @@
 }
 
 #botao:hover{
+    color: #fff !important;
     background-color:var(--secondary-color);
 }
 
@@ -195,3 +210,23 @@ form{
     text-align: center;
    
 }
+/* 
+#formul22 {
+  width: 50%;
+  height: 65%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color:var(--bg-form);
+  box-shadow: 0px 0px 1px var(--bg-shadow);
+  animation: neon .08s ease-in-out infinite alternate;
+  animation: neon_fosco .08s ease-in-out infinite alternate;
+  color:var(--font-color);
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top:15px;
+  
+} */
+

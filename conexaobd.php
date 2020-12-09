@@ -1,14 +1,16 @@
 <?php
-    $servername = "localhost";
-    $database = "bancodosquad";
-    $username = "root";
-    $password = "";
+    $servername = "localhost"; //nome do seu servidor
+    $database = "boraestudar"; //seu banco de dados
+    $username = "root"; //nome do usuário
+    $password = ""; //sua senha
+
+ 
+
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $database);
     // Check connection
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
-    echo "Connected successfully";
     mysqli_close($conn);
     ?>
