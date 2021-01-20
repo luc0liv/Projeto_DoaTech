@@ -68,18 +68,18 @@
         </div>
         <div class="modal-body">
             <div class="cadastro">
-                <form action="/action_page.php" method="post">
+                <form action="login.php" method="post">
                     <!-- <div class="imgcontainer">
                       <img src="#" alt="Avatar" class="avatar">
                     </div> -->
                     <div class="container">
                       <label for="uname"><b>Login</b></label>
-                      <input type="text" placeholder="Seu nome" name="uname" required>
+                      <input type="text" placeholder="Seu nome" name="nome" required>
                   
                       <label for="psw"><b>Senha</b></label>
-                      <input type="password" placeholder="Sua senha" name="psw" required>
+                      <input type="password" placeholder="Sua senha" name="senha" required>
                           
-                      <button type="submit">Login</button>
+                      <button type="submit" name="enviar">Login</button>
                       <label>
                         <input type="checkbox" checked="checked" name="remember"> Manter-se conectado
                       </label>
