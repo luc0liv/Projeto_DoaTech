@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="exemplo10-modal.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
     <title>Página inicial</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
     <header>
         <div class="header">
             <div class="logo">
-                <a href="index.php"><img class="logoimg" src="./assets/img/Asset 1.png"></a>
+                <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>
                 
             </div>
 
@@ -36,6 +37,17 @@
             </div>
         </div>
     </header>
+
+     <!-- Inicio do switch -->
+     <div class="tema">
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round" ></div>
+            </label>
+        </div>
+    </div>
+    <!--fim do switch-->
 
    
         <!--SECTION BANNER-->
@@ -61,7 +73,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel"> Bora Estudar ?</h5>
+          <h5 class="modal-title" id="exampleModalLabel">DoaTech</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -90,7 +102,7 @@
         </div>
         <div class="modal-footer">
           <a class="btn btn-primary"  href="./cadastroaluno.php">Cadastro Aluno</a>
-          <a class="btn btn-primary"  href="./cadastromonitor.php">Cadastro Monitor</a>
+          <a class="btn btn-primary"  href="./cadastromonitor.php">Cadastro Doador</a>
           <button type="button" class="btn btn-primary">Esqueceu a senha?</button>
         </div>
       </div>

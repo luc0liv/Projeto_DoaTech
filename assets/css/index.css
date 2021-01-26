@@ -46,7 +46,7 @@
     justify-content: center;
 
     text-decoration: none;
-    color: var(--primary-color-font);
+    color: white;
     background-color:var(--bg-button-color);
     border:none;
     outline:none;
@@ -54,7 +54,7 @@
 }
 
 .botao:hover{
-    background-color:var(--secondary-color);
+    background-color:#477890;
     cursor: pointer;
     border: none;
     outline:none;
@@ -70,9 +70,9 @@
 .banner {
     height: calc(100vh - 100px);
     /* background-color:#ccc; */
-    background-color:white ;
+    background-color:var(--bg-color) ;
     /* background-image: url(./assets/img/slide1.gif); */
-    background-image: url(../img/slide1.gif);
+    /* background-image: url(../img/slide1.gif); */
     background-size: cover;
     background-position: top;
     overflow: hidden;

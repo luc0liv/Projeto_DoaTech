@@ -1,16 +1,29 @@
-    .gradiente {
-        background: -moz-linear-gradient(0% 50% 0deg, rgba(21, 56, 255, 1) 7.96%, rgba(0, 144, 255, 1) 28.06%, rgba(21, 101, 255, 1) 53.18%, rgba(0, 15, 233, 1) 96.31%);
-        background: -webkit-linear-gradient(0deg, rgba(21, 56, 255, 1) 7.96%, rgba(0, 144, 255, 1) 28.06%, rgba(21, 101, 255, 1) 53.18%, rgba(0, 15, 233, 1) 96.31%);
-        background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0.0796, rgba(21, 56, 255, 1)), color-stop(0.2806, rgba(0, 144, 255, 1)), color-stop(0.5318, rgba(21, 101, 255, 1)), color-stop(0.9631, rgba(0, 15, 233, 1)));
-        background: -o-linear-gradient(0deg, rgba(21, 56, 255, 1) 7.96%, rgba(0, 144, 255, 1) 28.06%, rgba(21, 101, 255, 1) 53.18%, rgba(0, 15, 233, 1) 96.31%);
-        background: -ms-linear-gradient(0deg, rgba(21, 56, 255, 1) 7.96%, rgba(0, 144, 255, 1) 28.06%, rgba(21, 101, 255, 1) 53.18%, rgba(0, 15, 233, 1) 96.31%);
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1538FF', endColorstr='#000FE9' ,GradientType=0)";
-        background: linear-gradient(90deg, rgba(21, 56, 255, 1) 7.96%, rgba(0, 144, 255, 1) 28.06%, rgba(21, 101, 255, 1) 53.18%, rgba(0, 15, 233, 1) 96.31%);
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1538FF', endColorstr='#000FE9', GradientType=1);
-    }
+:root {
+    --primary-color: #302AE6;
+    --primary-color-font: #fff;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --bg-header-color:#151520;
+    --bg-button-color:#151520;
+   
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --primary-color-font: #161620;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --bg-button-color:rgba(000, 000, 88, 0.8);
     
+}   
+    
+    body{
+        background-color:var(--bg-color) ;
+    }
     .carousel_titulo {
-        color: white;
+        color: #477890;
         font-weight: 500;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         border-bottom: 1px solid #ccc;
@@ -20,7 +33,7 @@
     #Contitulo {
         font-weight: 500;
         border-bottom: 2px solid white;
-        color: white;
+        color: #477890;
         margin-bottom: 20px;
         padding-left: 20px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -31,9 +44,9 @@
         border-radius: 5px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 25px;
-        background-color: rgba(0, 86, 233, 0.5);
+        background-color: #477890;
         padding: 10px;
-        color: rgb(248, 248, 250);
+        color: white;
         text-align: center;
     }
     
@@ -43,4 +56,21 @@
     
     #artigo span:hover {
         font-weight: 700;
+    }
+
+    #myCarousel img{
+
+        width: 900px;
+        height: 500px;
+    }
+
+    .carousel-inner{
+        width: 50%;
+        margin: auto;
+    }
+
+    #myCarousel{
+        width: 100%;
+        height: 15%;
+        align-items: center;
     }

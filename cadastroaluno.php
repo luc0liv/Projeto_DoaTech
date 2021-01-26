@@ -19,7 +19,7 @@ include_once('cadastroalunobd.php');
         <header>
             <div class="header">
                 <div class="logo">
-                    <a href="index.php"><img class="logoimg" src="./assets/img/Asset 1.png"></a>
+                    <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>
                 </div>
     
                 <div class="menu">
