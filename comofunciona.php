@@ -12,22 +12,30 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/comoFunciona.css">
     <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
-    <title>Como Funciona</title>
+    <title>Página Inicial</title>
 </head>
 <body >
-    <header>
+<header>
         <div class="header">
             <div class="logo">
-                <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
+                <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
             </div>
 
             <div class="menu">
                 <img class="menu-opener" src="./assets/img/menu.png"/>
                 <nav>
                     <ul>
-                        <li><a href="index.php">Página inicial</a></li>
-                        <li><a href="comofunciona.php">Como Funciona</a></li>
+                        <li><a href="comofunciona.php">Página inicial</a></li>
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Escola</a>
+          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
+          <a class="dropdown-item " href="#">Doador</a>     
+        </div>
+    </li>
                         <li><a href="faleConosco.php">Fale Conosco</a></li>
+                        <li><a class="bg-white" href="index.php">Login</a></li>
                     </ul>
                 </nav>
               </div>
@@ -45,7 +53,7 @@
     </div>
     <!--fim do switch-->
 
-    <div class="container">
+    <div class="">
 
       <article id="artigo">
           <span>Doatech</span>

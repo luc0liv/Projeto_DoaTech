@@ -29,7 +29,6 @@
                 <a class="nav-link active text-primary" href="faleConosco.php">Fale Conosco</a>
             </li>
 
-
         </ul>
     </div> 
 </nav>

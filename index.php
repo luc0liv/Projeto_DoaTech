@@ -18,11 +18,10 @@
 </head>
 <body>
     
-    <header>
+<header>
         <div class="header">
             <div class="logo">
-                <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>
-                
+                <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
             </div>
 
             <div class="menu">
@@ -30,12 +29,20 @@
                 <nav>
                     <ul>
                         <li><a href="index.php">Página inicial</a></li>
-                        <li><a href="comofunciona.php">Como Funciona</a></li>
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Escola</a>
+          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
+          <a class="dropdown-item " href="#">Doador</a>     
+        </div>
+    </li>
                         <li><a href="faleConosco.php">Fale Conosco</a></li>
+                        <li><a class="bg-white" href="faleConosco.php">Login</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
+              </div>
+          </div>
     </header>
 
      <!-- Inicio do switch -->

@@ -8,32 +8,44 @@ include_once('cadastroalunobd.php');
 <html lang="pt-br">
     <head>
 		<meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/faleConosco.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/forms.css">
         <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
-        <title>Contatos</title>
+        <title>Cadastro de aluno</title>
     </head>
     <body>
 	
-        <header>
-            <div class="header">
-                <div class="logo">
-                    <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>
-                </div>
-    
-                <div class="menu">
-                    <img class="menu-opener" src="./assets/img/menu.png"/>
-                    <nav>
-                        <ul>
-                            <li><a href="index.php">Página inicial</a></li>
-                            <li><a href="comofunciona.php">Como Funciona</a></li>
-                            <li><a href="faleConosco.php">Fale Conosco</a></li>
-                        </ul>
-                    </nav>
-                </div>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
             </div>
-        </header>
+
+            <div class="menu">
+                <img class="menu-opener" src="./assets/img/menu.png"/>
+                <nav>
+                    <ul>
+                        <li><a href="comofunciona.php">Página inicial</a></li>
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Escola</a>
+          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
+          <a class="dropdown-item " href="#">Doador</a>     
+        </div>
+    </li>
+                        <li><a href="faleConosco.php">Fale Conosco</a></li>
+                        <li><a class="bg-white" href="index.php">Login</a></li>
+                    </ul>
+                </nav>
+              </div>
+          </div>
+    </header>
+
 
     <!-- Inicio do switch -->
     <div class="tema">
@@ -53,23 +65,26 @@ include_once('cadastroalunobd.php');
 
 <div class="space">
             <div class="container">
-                <section id="formulario" style="height:90%">
+                <section id="formAluno" style="height:100%">
                     <form method="post" action="" class="monitorando" >
 
                     <h4>Nome:</h4>
                     <input type="text" name="nome" id="TextA" placeholder="Seu Nome">
 
+                    <h4>Escola:</h4>
+                    <input type="text" name="escola" id="TextA" placeholder="O nome da sua escola">
+
                     <h4>Data de Nascimento:</h4>
                     <input type="date" name="dataNascimento" id="TextA">
-
-                    <h4>CPF:</h4>
-                    <input type="text" name="cpf" placeholder="Ex.: 000.000.000-00" id="TextA">
 
                     <h4>E-Mail:</h4>
                     <input type="email" id="TextA" name="email" placeholder="Ex.:fulando@gmail.com">
 
                     <h4>Senha:</h4>
-                    <input  type="password" id="TextA" name="senha" placeholder="Sua senha">      
+                    <input  type="password" id="TextA" name="senha" placeholder="Sua senha"> 
+
+                    <h4>Escreva aqui o seu pedido:</h4>
+                    <input type="text" name="pedido" id="TextA" placeholder="Do que você precisa?">
 
                     <input style="margin-top:15px;"type="submit" id="botao" value="Cadastrar">
 
