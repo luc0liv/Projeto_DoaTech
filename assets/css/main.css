@@ -1,9 +1,9 @@
 :root {
     --primary-color: #302AE6;
-    --secondary-color: #536390;
+    --secondary-color: #FCCE5D;
     --font-color: #424242;
     --bg-color: #fff;
-    --bg-header-color:#151520;
+    --bg-header-color:#03989E;
    
 }
 
@@ -49,13 +49,14 @@ header {
 }
 
 .logoimg {
-    width: 80px;
-    height:80px;
-    border-radius: 40px;
+   width: 120px;
+    
+    
 }
 
 .logo {
  width: 100px;
+
  
 }
 

@@ -54,7 +54,7 @@
         
       </article>
 
-          <h2 id="Contitulo">O que oferecemos:</h2>  
+          <h2 id="Contitulo">Como funciona?</h2>  
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -69,19 +69,19 @@
               <div class="carousel-inner">
 
                 <div class="item active">
-                  <h1 class="carousel_titulo">Titulo em construção</h1>
+                  <h1 class="carousel_titulo">Escola</h1>
                   <img src="./assets/img/siteemconstrucao.jpeg"  alt="Legislação" style="width:100%;">
 
                 </div>
 
                 <div class="item">
-                  <h1 class="carousel_titulo">Titulo em construção</h1>
+                  <h1 class="carousel_titulo">Alunos</h1>
                   <img src="./assets/img/siteemconstrucao.jpeg" alt="Dever de casa" style="width:100%;">
 
                 </div>
 
                 <div class="item">
-                  <h1 class="carousel_titulo">Titulo em construção</h1>
+                  <h1 class="carousel_titulo">Doadores</h1>
                   <img src="./assets/img/siteemconstrucao.jpeg" alt="Empreendedorismo" style="width:100%;">
 
                 </div>
