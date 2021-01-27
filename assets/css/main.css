@@ -104,7 +104,7 @@ list-style: none;
 
 
     footer {
-         background-color:#000; 
+         background-color:#FCCE5D; 
         text-align: center;
     
        
@@ -112,14 +112,14 @@ list-style: none;
   
 
     #follow {
-        font-family: Raleway;
-        width: 100vw;
-        color: white;
+        font-family: 'Teko', sans-serif;
+        font-weight: bold;
+        color: #000000;
         font-size: 15px;
     }
     
     .social {
-        background-color: #477890;
+        background-color: #03989E;
         padding:10px;
     }
     
@@ -207,6 +207,8 @@ list-style: none;
         padding: 30px;
     }
     
+
+    @import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&family=Open+Sans&family=Oswald&family=Teko:wght@300;400&display=swap');
     /*fim*/
 
   

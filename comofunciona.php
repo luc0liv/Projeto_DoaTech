@@ -70,25 +70,30 @@
 
                 <div class="item active">
                   <h1 class="carousel_titulo">Escola</h1>
-                  <img src="./assets/img/siteemconstrucao.jpeg"  alt="Legislação" style="width:100%;">
-
+                  
+                  <img src="./assets/img/escola.jpg"  alt="escola" style="width:100%;">
+                  <div class="carousel-caption d-none d-md-block text-warning">
+                  <p class="text-light bg-primary text-left school">A escola interessada em tornar-se um ponto de coleta realiza o cadastro na plataforma, desse modo seus alunos podem realizar o cadastro de seus pedidos.</p>
+                  </div>
                 </div>
 
                 <div class="item">
                   <h1 class="carousel_titulo">Alunos</h1>
-                  <img src="./assets/img/siteemconstrucao.jpeg" alt="Dever de casa" style="width:100%;">
+                  
+                <img src="./assets/img/siteemconstrucao.jpeg" alt="aluno" style="width:100%;">
+ 
 
                 </div>
 
                 <div class="item">
                   <h1 class="carousel_titulo">Doadores</h1>
-                  <img src="./assets/img/siteemconstrucao.jpeg" alt="Empreendedorismo" style="width:100%;">
+                  <img src="./assets/img/siteemconstrucao.jpeg" alt="doador" style="width:100%;">
 
                 </div>
 
                 <div class="item">
-                  <h1 class="carousel_titulo">Titulo em construção</h1>
-                  <img src="./assets/img/siteemconstrucao.jpeg" alt="Informática e Tecnologia" style="width:100%;">
+                  <h1 class="carousel_titulo">Doação</h1>
+                  <img src="./assets/img/siteemconstrucao.jpeg" alt="doação" style="width:100%;">
 
                 </div>
 
