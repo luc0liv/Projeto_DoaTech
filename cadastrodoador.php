@@ -1,7 +1,7 @@
 <!--Conexao do banco de dados-->
 <?php
 include_once('conexaobd.php');
-include_once('cadastromonitorbd.php');
+include_once('cadastrodoadorBD.php');
 ?>
 
 
@@ -33,22 +33,29 @@ include_once('cadastromonitorbd.php');
     <header>
         <div class="header">
             <div class="logo">
-            <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>
+                <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
             </div>
 
             <div class="menu">
-                <img class="menu-opener" src="./assets/img/menu.png" />
+                <img class="menu-opener" src="./assets/img/menu.png"/>
                 <nav>
                     <ul>
-                        <li><a href="index.php">Página inicial</a></li>
-                        <li><a href="comofunciona.php">Como Funciona</a></li>
+                        <li><a href="comofunciona.php">Página inicial</a></li>
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="cadastroescola.php">Escola</a>
+          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
+          <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
+        </div>
+    </li>
                         <li><a href="faleConosco.php">Fale Conosco</a></li>
+                        <li><a class="bg-white" href="index.php">Login</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
+              </div>
+          </div>
     </header>
-
 
 
     <main>
@@ -61,17 +68,11 @@ include_once('cadastromonitorbd.php');
                     <h4>Nome:</h4>
                     <input type="text" name="nome" id="TextA" placeholder="Seu Nome">
 
-                    <h4>Data de Nascimento:</h4>
-                    <input type="date" name="dataNascimento" id="TextA">
-
-                    <h4>CPF:</h4>
-                    <input type="text" name="cpf" placeholder="Ex.: 000.000.000-00" id="TextA">
-
                     <h4>E-Mail:</h4>
-                    <input type="email" id="TextA" name="email" placeholder="Ex.:fulando@gmail.com">
+                    <input type="email_doador" id="TextA" name="email" placeholder="Ex.:fulando@gmail.com">
 
                     <h4>Senha:</h4>
-                    <input  type="password" id="TextA" name="senha" placeholder="Sua senha">      
+                    <input  type="password" id="TextA" name="senha_doador" placeholder="Sua senha">
 
                     <input style="margin-top:15px;"type="submit" id="botao" value="Cadastrar">
 
