@@ -30,14 +30,16 @@ include_once('cadastroescolaBD.php');
                 <nav>
                     <ul>
                         <li><a href="comofunciona.php">Página inicial</a></li>
-    <li class="nav-item dropdown">
+
+                    
+                      <li class="nav-item dropdown">
        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="cadastroescola.php">Escola</a>
           <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
           <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
         </div>
-    </li>
+    </li> 
                         <li><a href="faleConosco.php">Fale Conosco</a></li>
                         <li><a class="bg-white" href="index.php">Login</a></li>
                     </ul>

@@ -15,7 +15,8 @@
     </head>
     <body>
 	
-    <header>
+<header>
+
         <div class="header">
             <div class="logo">
                 <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
@@ -26,21 +27,26 @@
                 <nav>
                     <ul>
                         <li><a href="comofunciona.php">Página inicial</a></li>
-    <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Escola</a>
-          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
-          <a class="dropdown-item " href="#">Doador</a>     
+        
+        <!--Dropdown cadastro-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="cadastroescola.php">Escola</a>
+            <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
+            <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
+            </div>
+        </li>
+        <!--Fim do dropdown-->
+
+                    <li><a href="faleConosco.php">Fale Conosco</a></li>
+                    <li><a class="bg-white" href="index.php">Login</a></li>
+                </ul>
+            </nav>
+            </div>
         </div>
-    </li>
-                        <li><a href="faleConosco.php">Fale Conosco</a></li>
-                        <li><a class="bg-white" href="index.php">Login</a></li>
-                    </ul>
-                </nav>
-              </div>
-          </div>
-    </header>
+
+</header>
 
 
     <!-- Inicio do switch -->
@@ -63,7 +69,7 @@
 		    <section id="contatos">
 					<div class="contato">
 						<img src="./assets/img/new-email.png" alt="email">
-						<p>contato@boraestudar.com</p>
+						<p>contato@doatech.com</p>
 					</div>
 						
 					

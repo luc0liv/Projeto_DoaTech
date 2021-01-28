@@ -14,7 +14,7 @@ include_once('cadastrodoadorBD.php');
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/faleConosco.css">
     <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
-    <title>Contatos</title>
+    <title>Cadastro Doadores</title>
 </head>
 
 <body>
@@ -66,10 +66,10 @@ include_once('cadastrodoadorBD.php');
                     <form method="post" action="" class="monitorando" >
 
                     <h4>Nome:</h4>
-                    <input type="text" name="nome" id="TextA" placeholder="Seu Nome">
+                    <input type="text" name="nomedoador" id="TextA" placeholder="Seu Nome">
 
                     <h4>E-Mail:</h4>
-                    <input type="email_doador" id="TextA" name="email" placeholder="Ex.:fulando@gmail.com">
+                    <input type="email" id="TextA" name="email_doador" placeholder="Ex.:fulando@gmail.com">
 
                     <h4>Senha:</h4>
                     <input  type="password" id="TextA" name="senha_doador" placeholder="Sua senha">

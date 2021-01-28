@@ -29,9 +29,9 @@
     <li class="nav-item dropdown">
        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Escola</a>
+          <a class="dropdown-item" href="cadastroescola.php">Escola</a>
           <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
-          <a class="dropdown-item " href="#">Doador</a>     
+          <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
         </div>
     </li>
                         <li><a href="faleConosco.php">Fale Conosco</a></li>

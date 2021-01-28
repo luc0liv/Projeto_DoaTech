@@ -30,14 +30,15 @@ include_once('cadastroalunobd.php');
                 <nav>
                     <ul>
                         <li><a href="comofunciona.php">Página inicial</a></li>
-    <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Escola</a>
-          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
-          <a class="dropdown-item " href="#">Doador</a>     
-        </div>
-    </li>
+   
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="cadastroescola.php">Escola</a>
+                    <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
+                    <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
+            </div>
+            </li>
                         <li><a href="faleConosco.php">Fale Conosco</a></li>
                         <li><a class="bg-white" href="index.php">Login</a></li>
                     </ul>
@@ -45,6 +46,7 @@ include_once('cadastroalunobd.php');
               </div>
           </div>
     </header>
+
 
 
     <!-- Inicio do switch -->
@@ -69,19 +71,16 @@ include_once('cadastroalunobd.php');
                     <form method="post" action="" class="monitorando" >
 
                     <h4>Nome:</h4>
-                    <input type="text" name="nome" id="TextA" placeholder="Seu Nome">
+                    <input type="text" name="nomealuno" id="TextA" placeholder="Seu Nome">
 
                     <h4>Escola:</h4>
-                    <input type="text" name="escola" id="TextA" placeholder="O nome da sua escola">
-
-                    <h4>Data de Nascimento:</h4>
-                    <input type="date" name="dataNascimento" id="TextA">
+                    <input type="text" name="aluno_escola" id="TextA" placeholder="O nome da sua escola">       
 
                     <h4>E-Mail:</h4>
-                    <input type="email" id="TextA" name="email" placeholder="Ex.:fulando@gmail.com">
+                    <input type="email" id="TextA" name="email_aluno" placeholder="Ex.:fulando@gmail.com">
 
                     <h4>Senha:</h4>
-                    <input  type="password" id="TextA" name="senha" placeholder="Sua senha"> 
+                    <input  type="password" id="TextA" name="senha_aluno" placeholder="Sua senha"> 
 
                     <h4>Escreva aqui o seu pedido:</h4>
                     <input type="text" name="pedido" id="TextA" placeholder="Do que você precisa?">
