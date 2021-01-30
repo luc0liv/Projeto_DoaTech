@@ -1,0 +1,25 @@
+.backg{
+    background-color: #03989E;
+}
+
+
+.estiloDoador {
+
+padding: 20px;
+background-color: #03989E;
+border: solid 2px #FCCE5D;
+color: white;
+margin-top:10%;
+
+
+}
+
+
+.estiloAluno{
+
+    padding: 20px;
+background-color: #03989E;
+border: solid 2px #FCCE5D;
+color: white;
+margin-top:10%;
+}
