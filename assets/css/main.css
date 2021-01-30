@@ -1,13 +1,19 @@
 .backg{
     background-color: #03989E;
+
 }
 
+.trick :hover {
+
+    border-bottom: #FCCE5D;
+}
 
 .estiloDoador {
 
 padding: 20px;
 background-color: #03989E;
 border: solid 2px #FCCE5D;
+border-radius: 5px;
 color: white;
 margin-top:10%;
 
@@ -20,6 +26,17 @@ margin-top:10%;
     padding: 20px;
 background-color: #03989E;
 border: solid 2px #FCCE5D;
+border-radius: 5px;
+color: white;
+margin-top:10%;
+}
+
+.estiloEscola{
+
+padding: 20px;
+background-color: #03989E;
+border: solid 2px #FCCE5D;
+border-radius: 5px;
 color: white;
 margin-top:10%;
 }

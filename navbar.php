@@ -21,26 +21,26 @@
       
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.php">Página inicial<span class="sr-only">(página atual)</span></a>
+            <li class="nav-item trick">
+              <a class="nav-link text-white" href="index.php">Página inicial<span class="sr-only">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Fale Conosco</a>
+              <a class="nav-link text-white" href="#">Fale Conosco</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cadastre-se
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Cadastro escola</a>
-                <a class="dropdown-item" href="./formaluno.php">Cadastro aluno</a>                
-                <a class="dropdown-item" href="./formdoador.php">Cadastro doador</a>
+                <a class="dropdown-item bg-warning" href="./formescola.php">Cadastro escola</a>
+                <a class="dropdown-item bg-info" href="./formaluno.php">Cadastro aluno</a>                
+                <a class="dropdown-item bg-warning" href="./formdoador.php">Cadastro doador</a>
               </div>
             </li>
           
           </ul>
           <div class="form-inline my-2 my-lg-0">
-           <a class="btn btn-outline-success my-2 my-sm-0 href="login.php" role="button">Login</a>    
+           <a class="btn text-white btn-outline-warning my-2 my-sm-0" href="login.php" role="button">Login</a>    
           </div>
         </div>
       </nav>

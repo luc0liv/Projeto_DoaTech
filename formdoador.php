@@ -20,8 +20,6 @@
     <label for="emaildoador">Endereço de email</label>
     <input type="email" name="email_doador" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
     
-  </div>
-  <div class="form-group">
     <label for="exampleInputPassword1">Senha</label>
     <input type="password" name="senha_doador" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
   </div>
