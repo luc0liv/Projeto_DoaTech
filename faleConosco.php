@@ -9,15 +9,19 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/nav.css">
+
         <link rel="stylesheet" type="text/css" href="./assets/css/faleConosco.css">
         <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
         <title>Contatos</title>
     </head>
     <body>
 	
-<header>
 
-        <div class="header">
+    <?php include_once('nav.php');?> 
+
+        <!--<header>
+            <div class="header">
             <div class="logo">
                 <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
             </div>
@@ -28,7 +32,7 @@
                     <ul>
                         <li><a href="comofunciona.php">Página inicial</a></li>
         
-        <!--Dropdown cadastro-->
+       
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
             <div class="dropdown-menu">
@@ -37,7 +41,7 @@
             <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
             </div>
         </li>
-        <!--Fim do dropdown-->
+        
 
                     <li><a href="faleConosco.php">Fale Conosco</a></li>
                     <li><a class="bg-white" href="index.php">Login</a></li>
@@ -47,7 +51,7 @@
         </div>
 
 </header>
-
+-->
 
     <!-- Inicio do switch -->
     <div class="tema">

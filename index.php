@@ -13,37 +13,15 @@
     <link rel="stylesheet" type="text/css" href="exemplo10-modal.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/nav.css">
     <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
     <title>Página inicial</title>
 </head>
 <body>
     
-<header>
-        <div class="header">
-            <div class="logo">
-                <a href="index.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
-            </div>
-
-            <div class="menu">
-                <img class="menu-opener" src="./assets/img/menu.png"/>
-                <nav>
-                    <ul>
-                        <li><a href="index.php">Página inicial</a></li>
-                        <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="cadastroescola.php">Escola</a>
-          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
-          <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
-        </div>
-    </li>
-                        <li><a href="faleConosco.php">Fale Conosco</a></li>
-                        <li><a class="bg-white" href="faleConosco.php">Login</a></li>
-                    </ul>
-                </nav>
-              </div>
-          </div>
-    </header>
+  <header>
+  <?php include_once('nav.php');?>  
+  </header>
 
      <!-- Inicio do switch -->
      <div class="tema">
