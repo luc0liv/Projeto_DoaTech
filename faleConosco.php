@@ -17,41 +17,11 @@
     </head>
     <body>
 	
-
+<header>
     <?php include_once('nav.php');?> 
 
-        <!--<header>
-            <div class="header">
-            <div class="logo">
-                <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
-            </div>
-
-            <div class="menu">
-                <img class="menu-opener" src="./assets/img/menu.png"/>
-                <nav>
-                    <ul>
-                        <li><a href="comofunciona.php">Página inicial</a></li>
         
-       
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="cadastroescola.php">Escola</a>
-            <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
-            <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
-            </div>
-        </li>
-        
-
-                    <li><a href="faleConosco.php">Fale Conosco</a></li>
-                    <li><a class="bg-white" href="index.php">Login</a></li>
-                </ul>
-            </nav>
-            </div>
-        </div>
-
 </header>
--->
 
     <!-- Inicio do switch -->
     <div class="tema">
@@ -66,8 +36,8 @@
 
 	    <div class="container">
 		
-			<h2>Contatos</h2>
-		
+			<div class="titulo"><h2>Contatos</h2>
+		</div>
 		    <hr>
 	
 		    <section id="contatos">

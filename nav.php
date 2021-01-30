@@ -39,7 +39,7 @@
       </li>
     </ul>
     
-      <button class="btn btn-outline-warning my-2 my-sm-0 botao" href="index.php">Login</button>
+      <a href="index.php" class="btn btn-outline-warning my-2 my-sm-0" role="button" >Login</a>
    
   </div>
 </nav>

@@ -166,9 +166,10 @@ color:#FCCE5D;
     }
     
     .slider {
+        
         background-color: #ccc;
         bottom: 0;
-        cursor: pointer;
+       cursor: pointer;
         left: 0;
         position: absolute;
         right: 0;

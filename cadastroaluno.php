@@ -44,7 +44,7 @@ include_once('cadastroalunobd.php');
 
 <div class="space">
             <div class="container">
-                <section id="formAluno" style="height:100%">
+                <section id="formAluno" style="height:auto">
                     <form method="post" action="" class="monitorando" >
 
                     <h4>Nome:</h4>

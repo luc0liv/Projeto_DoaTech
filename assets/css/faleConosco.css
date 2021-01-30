@@ -84,11 +84,16 @@
 }
 
 .container h2 {
+ 
     color:var(--font-color-neon);
     animation: neon .08s ease-in-out infinite alternate;
 }
 
+.titulo {
+  margin-top: 20px;
+}
 
+ 
 
 
   @keyframes neon {

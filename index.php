@@ -20,7 +20,26 @@
 <body>
     
   <header>
-  <?php include_once('nav.php');?>  
+  <nav class="navbar navbar-expand-lg backg">
+  <a class="navbar-brand" href="comofunciona.php"><img src="./assets/img/doatech.png" width="120" height="40"></a>
+  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item links">
+        <a class="nav-link text-white" href="comofunciona.php">Página Inicial <span class="sr-only">(página atual)</span></a>
+      </li>
+       
+      </li>
+      <li class="nav-item links">
+        <a class="nav-link text-white" href="faleConosco.php">Fale Conosco</a>
+      </li>
+    </ul>     
+   
+  </div>
+</nav>
   </header>
 
      <!-- Inicio do switch -->
@@ -42,6 +61,7 @@
             <div class="slide">
                 <div class="slideArea">
 
+  <img src="./assets/img/loginpage.gif" width="60%" height="90%">
                     <!-- <div class="botao">
                         <a href="">Login</a> 
                     </div> -->

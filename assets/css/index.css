@@ -24,6 +24,7 @@
 
 } */
 
+
 .botao {
 
     /*text-transform: uppercase;
@@ -76,6 +77,7 @@
     background-size: cover;
     background-position: top;
     overflow: hidden;
+    
 }
 
 .banner .sliders {
@@ -95,6 +97,7 @@
 }
 
 .banner .slideArea {
+
     height: 100%;
     display: flex;
     align-items:center;

@@ -10,36 +10,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/comoFunciona.css">
     <script defer type="text/javascript" src="./assets/scripts/index.js"></script>
     <title>Página Inicial</title>
 </head>
 <body >
 <header>
-        <div class="header">
-            <div class="logo">
-                <a href="comofunciona.php"><img class="logoimg" src="./assets/img/doatech.png"></a>              
-            </div>
-
-            <div class="menu">
-                <img class="menu-opener" src="./assets/img/menu.png"/>
-                <nav>
-                    <ul>
-                        <li><a href="comofunciona.php">Página inicial</a></li>
-    <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cadastre-se</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="cadastroescola.php">Escola</a>
-          <a class="dropdown-item " href="cadastroaluno.php">Aluno</a>
-          <a class="dropdown-item " href="cadastrodoador.php">Doador</a>     
-        </div>
-    </li>
-                        <li><a href="faleConosco.php">Fale Conosco</a></li>
-                        <li><a class="bg-white" href="index.php">Login</a></li>
-                    </ul>
-                </nav>
-              </div>
-          </div>
+<?php include_once('nav.php');?> 
     </header>
 
      <!-- Inicio do switch -->
@@ -79,29 +57,27 @@
                 <div class="item active">
                   <h1 class="carousel_titulo">Escola</h1>
                   
-                  <img src="./assets/img/escola.jpg"  alt="escola" style="width:100%;">
+                  <img src="./assets/img/escola.jpg"  alt="escola" style="width:150%; border-radius: 15px 50px; ">                  
                   <div class="carousel-caption d-none d-md-block text-warning">
-                  <p class="text-light bg-primary text-left school">A escola interessada em tornar-se um ponto de coleta realiza o cadastro na plataforma, desse modo seus alunos podem realizar o cadastro de seus pedidos.</p>
+                  <p class="text-white-50 bg-info text-left school" style="opacity:0.7 ; font-size:20px">A escola interessada em tornar-se um ponto de coleta realiza o cadastro na plataforma, desse modo seus alunos podem realizar o cadastro de seus pedidos.</p>
                   </div>
                 </div>
 
                 <div class="item">
                   <h1 class="carousel_titulo">Alunos</h1>
                   
-                <img src="./assets/img/siteemconstrucao.jpeg" alt="aluno" style="width:100%;">
- 
+                  <img src="./assets/img/siteemconstrucao.jpeg" alt="aluno" style="width:150%; border-radius: 15px 50px;"> 
 
                 </div>
 
                 <div class="item">
                   <h1 class="carousel_titulo">Doadores</h1>
-                  <img src="./assets/img/siteemconstrucao.jpeg" alt="doador" style="width:100%;">
-
+                  <img src="./assets/img/siteemconstrucao.jpeg" alt="doador" style="width:150%; border-radius: 15px 50px;">
                 </div>
 
                 <div class="item">
                   <h1 class="carousel_titulo">Doação</h1>
-                  <img src="./assets/img/siteemconstrucao.jpeg" alt="doação" style="width:100%;">
+                  <img src="./assets/img/siteemconstrucao.jpeg" alt="doação" style="width:150%;border-radius: 15px 50px;">
 
                 </div>
 
