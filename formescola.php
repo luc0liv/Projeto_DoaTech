@@ -34,6 +34,6 @@
   <button type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>
 </section>
-
+<?php include_once('./footer.php')?>
 </body>
 </html>
