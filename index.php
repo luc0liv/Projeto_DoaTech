@@ -23,10 +23,10 @@
       <p class="text-carousel">A escola interessada em tornar-se um ponto de coleta realiza o cadastro na plataforma, desse modo seus alunos podem realizar o cadastro de seus pedidos.</p>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="./assets/img/siteemconstrucao.jpeg" alt="Segundo Slide">
+      <img class="d-block w-100" src="./assets/img/escola.jpg" alt="Segundo Slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="./assets/img/siteemconstrucao.jpeg" alt="Terceiro Slide">
+      <img class="d-block w-100" src="./assets/img/escola.jpg" alt="Terceiro Slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
