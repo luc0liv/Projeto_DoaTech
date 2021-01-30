@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
-
+    <link rel="stylesheet" href="./assets/css/modal.css" type="text/css">
     
 </head>
 <body>
@@ -58,11 +58,11 @@
         </div>
         <div class="modal-body">
             <div class="cadastro">
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" id="formModal">
                     <!-- <div class="imgcontainer">
                       <img src="#" alt="Avatar" class="avatar">
                     </div> -->
-                    <div class="container">
+                    <div class="container" id="contModal">
                       <label for="uname"><b>Login</b></label>
                       <input type="text" placeholder="Seu nome" name="nome" required>
                   
