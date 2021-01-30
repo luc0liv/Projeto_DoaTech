@@ -23,3 +23,67 @@ border: solid 2px #FCCE5D;
 color: white;
 margin-top:10%;
 }
+
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+button {
+  background-color: rgba(0,0,200,0.8);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.esqueceubtn {
+  width: 41%;
+  margin: 4%;
+  padding: 10px 18px;
+  background-color: rgba(0,0,200,0.8);
+}
+
+.cadastrobtn {
+    width: 41%;
+    margin: 4%;
+  padding: 10px 18px;
+  background-color: rgba(0,0,200,0.8);;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.container {
+  padding: 16px;
+}
+
+.close{
+    width: 100px;
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+}
