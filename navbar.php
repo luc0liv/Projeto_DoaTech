@@ -40,7 +40,7 @@
           
           </ul>
           <div class="form-inline my-2 my-lg-0">
-           <a class="btn text-white btn-outline-warning my-2 my-sm-0" href="login.php" role="button">Login</a>    
+           <a class="btn text-white btn-outline-warning my-2 my-sm-0"  role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
           </div>
         </div>
       </nav>
