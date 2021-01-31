@@ -56,3 +56,12 @@ margin-top:5%;
 margin-bottom: 5%;
 }
 
+.bg-drop{
+    color:#03989E;
+}
+
+.bg-drop:hover{
+    background-color:#FCCE5D;
+    color: white;
+    font-weight: 700;
+}

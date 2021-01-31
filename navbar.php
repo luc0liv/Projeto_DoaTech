@@ -29,10 +29,10 @@
               <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cadastre-se
               </a>
-              <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item bg-warning" href="./formescola.php">Cadastro escola</a>
-                <a class="dropdown-item bg-info" href="./formaluno.php">Cadastro aluno</a>                
-                <a class="dropdown-item bg-warning" href="./formdoador.php">Cadastro doador</a>
+              <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <a class="dropdown-item bg-drop" href="./formescola.php">Cadastro escola</a>
+                <a class="dropdown-item bg-drop" href="./formaluno.php">Cadastro aluno</a>                
+                <a class="dropdown-item bg-drop" href="./formdoador.php">Cadastro doador</a>
               </div>
             </li>
           <li class="nav-item trick">
@@ -75,13 +75,9 @@
                   </form>
              </div>
         </div>
-        <!--Precisa corrigir o posicionamento dos botões abaixo-->
+        
         <div class="modal-footer">
-        <a class="btn btn-primary"  href="./formescola.php">Cadastro Escola</a>
-          <a class="btn btn-primary"  href="./formaluno.php">Cadastro Aluno</a>
-          <a class="btn btn-primary "  href="./formdoador.php">Cadastro Doador</a>
           <button type="button" class="btn btn-info btn-sm">Esqueceu a senha?</button>
-
         </div>          
 
       </div>
