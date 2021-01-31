@@ -2,4 +2,7 @@
        
     margin: 20px 0px 20px 0px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');

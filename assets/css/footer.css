@@ -1,8 +1,7 @@
 footer {
-    background-color:#FCCE5D; 
+   background-color:#FCCE5D; 
    text-align: center;
-
-  
+     
 }
 
 
@@ -29,3 +28,5 @@ footer {
    transition: 0.3s;
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');

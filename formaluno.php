@@ -43,6 +43,8 @@ include_once('./alunoBD.php')
 </form>
 </section>
 
+
 <?php include_once('./footer.php')?>
+
 </body>
 </html>

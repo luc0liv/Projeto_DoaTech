@@ -1,3 +1,5 @@
+body {height: 100%;}
+
 .backg{
     background-color: #03989E;
 
@@ -67,3 +69,5 @@ margin-bottom: 5%;
     color: white;
     font-weight: 700;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
