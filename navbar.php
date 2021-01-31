@@ -24,20 +24,20 @@
             <li class="nav-item trick">
               <a class="nav-link text-white" href="index.php">Página inicial<span class="sr-only">(página atual)</span></a>
             </li>
-            <li class="nav-item trick">
-              <a class="nav-link text-white" href="#">Fale Conosco</a>
-            </li>
+            
             <li class="nav-item trick dropdown">
               <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cadastre-se
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item bg-warning" href="./formescola.php">Cadastro escola</a>
                 <a class="dropdown-item bg-info" href="./formaluno.php">Cadastro aluno</a>                
                 <a class="dropdown-item bg-warning" href="./formdoador.php">Cadastro doador</a>
               </div>
             </li>
-          
+          <li class="nav-item trick">
+              <a class="nav-link text-white" href="faleconosco.php">Fale Conosco</a>
+            </li>
           </ul>
           <div class="form-inline my-2 my-lg-0">
            <a class="btn text-white btn-outline-warning my-2 my-sm-0"  role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
@@ -50,7 +50,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">DoaTech</h5>
+          <a class="modal-title" id="exampleModalLabel"><img src="./assets/img/doatech.png" width="90" height="30"></a>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -62,24 +62,28 @@
                       <img src="#" alt="Avatar" class="avatar">
                     </div> -->
                     <div class="container" id="contModal">
-                      <label for="uname"><b>Login</b></label>
-                      <input type="text" placeholder="Seu nome" name="nome" required>
+                      <label for="uname"><b>E-mail</b></label>
+                      <input type="text" placeholder="Seu e-mail" name="email" required>
                   
                       <label for="psw"><b>Senha</b></label>
                       <input type="password" placeholder="Sua senha" name="senha" required>
                           
-                      <button type="submit" name="enviar">Login</button>
+                      <button class="" type="submit" name="enviar">Login</button>
                       
                     </div>
 
                   </form>
              </div>
         </div>
+        <!--Precisa corrigir o posicionamento dos botões abaixo-->
         <div class="modal-footer">
-          <a class="btn btn-primary"  href="./cadastroaluno.php">Cadastro Aluno</a>
-          <a class="btn btn-primary"  href="./cadastromonitor.php">Cadastro Doador</a>
-          <button type="button" class="btn btn-primary">Esqueceu a senha?</button>
-        </div>
+        <a class="btn btn-primary"  href="./formescola.php">Cadastro Escola</a>
+          <a class="btn btn-primary"  href="./formaluno.php">Cadastro Aluno</a>
+          <a class="btn btn-primary "  href="./formdoador.php">Cadastro Doador</a>
+          <button type="button" class="btn btn-info btn-sm">Esqueceu a senha?</button>
+
+        </div>          
+
       </div>
     </div>
   </div>
