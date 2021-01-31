@@ -43,7 +43,7 @@
           <div class="form-inline my-2 my-lg-0">
           <?php 
            if(isset($_SESSION['nome'])){
-            echo '<h4 style="color:white; margin-right: 30px;">Bem-vindo ' . $_SESSION['nome'] . '</h2>' ;     
+            echo '<h4 style="color:white; margin-right: 25px;">Bem-vindo ' . $_SESSION['nome'] . '</h2>' ;     
             echo '<a type="button" class="btn text-white btn-outline-warning my-2 my-sm-0" style="margin-right: 5px;" href="?logout">Fazer Logout!</a>';
 
           }
