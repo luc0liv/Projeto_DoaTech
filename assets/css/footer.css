@@ -1,0 +1,31 @@
+footer {
+    background-color:#FCCE5D; 
+   text-align: center;
+
+  
+}
+
+
+#follow {
+   font-family: 'Teko', sans-serif;
+   font-weight: bold;
+   color: #000000;
+   font-size: 15px;
+}
+
+.social {
+   background-color: #03989E;
+   padding:10px;
+}
+
+.social img {
+   width: 80px;
+   transition: 0.3s;
+ 
+}
+
+.iconSocial:hover {
+   width: 88px;
+   transition: 0.3s;
+
+}
