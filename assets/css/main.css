@@ -3,9 +3,12 @@
 
 }
 
-.trick :hover {
+.trick {
+    border-bottom: solid 3px white;
+}
+.trick:hover{
 
-    border-bottom: #FCCE5D;
+    border-bottom: solid 4px #FCCE5D;
 }
 
 .estiloDoador {

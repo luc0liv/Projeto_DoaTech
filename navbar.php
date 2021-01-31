@@ -24,10 +24,10 @@
             <li class="nav-item trick">
               <a class="nav-link text-white" href="index.php">Página inicial<span class="sr-only">(página atual)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item trick">
               <a class="nav-link text-white" href="#">Fale Conosco</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item trick dropdown">
               <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cadastre-se
               </a>
