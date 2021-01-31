@@ -1,3 +1,7 @@
+<!--conexão com o BD funcionando-->
+<?php
+include_once('./alunoBD.php')
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,17 +21,17 @@
   <div class="form-group">
 
   <label for="nomealuno">Nome completo</label>
-    <input type="text" name="nome_aluno" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome">
+    <input type="text" name="nomeAluno" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome">
 
     <label for="escolaAluno">Escola</label>
-    <input type="text" name="aluno_escola" class="form-control" id="escola" aria-describedby="name" placeholder="Nome da sua escola">
+    <input type="text" name="escolaAluno" class="form-control" id="escola" aria-describedby="name" placeholder="Nome da sua escola">
 
     <label for="emailAluno">Endereço de email</label>
-    <input type="email" name="email_aluno" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
+    <input type="email" name="emailAluno" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
     
     
     <label for="passAluno">Senha</label>
-    <input type="password" name="senha_aluno" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
+    <input type="password" name="senhaAluno" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
  
 
     <label for="pedido">Pedido</label>

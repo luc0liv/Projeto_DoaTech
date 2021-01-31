@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,20 +17,20 @@
 <form method="post" action="">
   <div class="form-group">
 
-  <label for="nomealuno">Nome da escola</label>
-    <input type="text" name="nomeescola" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome">
+  <label for="nomeEscola">Nome da escola</label>
+    <input type="text" name="nomeEscola" class="form-control" id="nomeEscola" aria-describedby="name" placeholder="Seu nome">
     
     <label for="emailEscola">Endereço de email</label>
-    <input type="email" name="email_escola" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
+    <input type="email" name="emailEscola" class="form-control" id="emailEscola" aria-describedby="emailHelp" placeholder="Seu email">
     
     <label for="passEscola">Senha</label>
-    <input type="password" name="senha_escola" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
+    <input type="password" name="senhaEscola" class="form-control" id="escolaPass" placeholder="Crie uma Senha com até 10 caracteres">
  
     <label for="direcaoEscola">Direção</label>
-    <input type="text" name="direcao" class="form-control" id="escola" aria-describedby="name" placeholder="Direção da escola">
+    <input type="text" name="direcao" class="form-control" id="dirEscola" aria-describedby="name" placeholder="Direção da escola">
    
-  <label for="Direção">Pedido</label>
-    <input type="text" name="direcao" class="form-control" id="endereco" aria-describedby="name" placeholder="Escreva aqui o endereço da Escola">
+  <label for="endereco">Endereço </label>
+    <input type="text" name="enderecoEscola" class="form-control" id="enderecoEscola" aria-describedby="name" placeholder="Escreva aqui o endereço da Escola">
   </div>
   <button type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>

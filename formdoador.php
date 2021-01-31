@@ -1,3 +1,8 @@
+<!--Conexão com o BD funcionando-->
+<?php
+include_once('./doadorBD.php')
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,13 +20,13 @@
   <div class="form-group">
 
   <label for="nomedoador">Nome completo</label>
-    <input type="text" name="nomedoador" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome">
+    <input type="text" name="nomeDoador" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome">
 
     <label for="emaildoador">Endereço de email</label>
-    <input type="email" name="email_doador" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
+    <input type="email" name="emailDoador" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
     
     <label for="exampleInputPassword1">Senha</label>
-    <input type="password" name="senha_doador" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
+    <input type="password" name="senhaDoador" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
   </div>
   
   <button type="submit" class="btn btn-outline-warning">Enviar</button>

@@ -1,3 +1,8 @@
+<!--conexão com BD funcionando-->
+<?php 
+include_once('./faleconoscoBD.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,7 +11,7 @@
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Cadastro de Escolas</title>
+    <title>Fale Conosco</title>
 </head>
 <body>
 
@@ -21,10 +26,10 @@
   <div class="form-group">
 
   <label for="nomeContato">Nome</label>
-    <input type="text" name="nome_contato" class="form-control" id="nomeContato" aria-describedby="name" placeholder="Seu nome">
+    <input type="text" name="nome" class="form-control" id="nomeContato" aria-describedby="name" placeholder="Seu nome">
     
     <label for="emailContato">Endereço de email</label>
-    <input type="email" name="email_contato" class="form-control" id="emailContato" aria-describedby="emailHelp" placeholder="Seu email">
+    <input type="email" name="email" class="form-control" id="emailContato" aria-describedby="emailHelp" placeholder="Seu email">
     
     <label for="msgContato">Mensagem</label>
     <textarea name="mensagem" class="form-control" id="mensagemContato" aria-describedby="msg" placeholder="Escreva aqui sua mensagem"></textarea>
