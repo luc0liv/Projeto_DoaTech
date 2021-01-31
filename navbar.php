@@ -1,3 +1,4 @@
+<?php include_once('conexaobd.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +41,15 @@
             </li>
           </ul>
           <div class="form-inline my-2 my-lg-0">
-           <a class="btn text-white btn-outline-warning my-2 my-sm-0"  role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
+          <?php 
+           if(isset($_SESSION['nome'])){
+            echo '<h4 style="color:white; margin-right: 30px;">Bem-vindo ' . $_SESSION['nome'] . '</h2>' ;     
+            echo '<a type="button" class="btn text-white btn-outline-warning my-2 my-sm-0" style="margin-right: 5px;" href="?logout">Fazer Logout!</a>';
+
+          }
+           ?>
+           <a class="btn text-white btn-outline-warning my-2 my-sm-0" style="margin-right: 5px;" role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
+           
           </div>
         </div>
       </nav>
@@ -57,18 +66,25 @@
         </div>
         <div class="modal-body">
             <div class="cadastro">
-                <form action="login.php" method="post" id="formModal">
+                <form action="./login.php" method="post" id="formModal">
                     <!-- <div class="imgcontainer">
                       <img src="#" alt="Avatar" class="avatar">
                     </div> -->
                     <div class="container" id="contModal">
-                      <label for="uname"><b>E-mail</b></label>
-                      <input type="text" placeholder="Seu e-mail" name="email" required>
+                      <label for="nome"><b>E-mail ou nome</b></label>
+                      <input type="text" placeholder="Seu e-mail" name="nome" required>
                   
-                      <label for="psw"><b>Senha</b></label>
+                      <label for="senha"><b>Senha</b></label>
                       <input type="password" placeholder="Sua senha" name="senha" required>
-                          
-                      <button class="" type="submit" name="enviar">Login</button>
+                      
+                      <label for="selectdes"><b>Quem és ?</b></label>
+                      <select class="form-control" id="exampleFormControlSelect1" name="selectdes">
+                        <option value="doador">Doador</option>
+                        <option value="escola">Escola</option>
+                        <option value="aluno">Aluno</option>
+                      </select>
+                      
+                      <button type="submit" name="enviar">Login</button>
                       
                     </div>
 
