@@ -1,4 +1,6 @@
-
+<?php
+include_once('./escolaBD.php');
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -29,7 +31,7 @@
     <label for="direcaoEscola">Direção</label>
     <input type="text" name="direcao" class="form-control" id="dirEscola" aria-describedby="name" placeholder="Direção da escola">
    
-  <label for="endereco">Endereço </label>
+    <label for="endereco">Endereço </label>
     <input type="text" name="enderecoEscola" class="form-control" id="enderecoEscola" aria-describedby="name" placeholder="Escreva aqui o endereço da Escola">
   </div>
   <button type="submit" class="btn btn-outline-warning">Enviar</button>
