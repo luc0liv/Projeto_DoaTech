@@ -1,8 +1,28 @@
 .intro {
-       
+    font-family: 'Roboto', sans-serif;   
     margin: 20px 0px 20px 0px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    
+}
+
+.margens {
+    margin-bottom: 80px;
+
+}
+
+.pedidos {
+    background-color: #FDE69F;
+    border: solid 2px #03989E;
+    border-radius: 10px;
+    color:black;
+    margin-bottom: 5px;
+    padding: 50px;
+
+}
+
+.pedidos p {
+    font-family: 'Lato', sans-serif;
+      
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');

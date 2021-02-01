@@ -1,6 +1,8 @@
 <!--Essa é a página que o doador tem acesso após o Login, 
 aqui ficam os pedidos dos alunos para que o doador escolha aquilo que vai doar.-->
 
+<?php include_once('./conexaobd.php')?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,19 +21,40 @@ aqui ficam os pedidos dos alunos para que o doador escolha aquilo que vai doar.-
 <main>
 <div class="intro"><h4>Pedidos dos alunos</h4></div>
 
-<section class="container">
+<section class="container margens">
+
+<?php
+            $sql = "select * from pedidos";
+            $result = $conn-> query($sql);
+            
+            if ($result->num_rows > 0){
+                while($rows = $result->fetch_assoc()){
+                     ?>
+        
+           
 <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start shadow border border-primary">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">Item pedido</h5>
-      <small>3 dias atrás</small>
+
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start shadow">
+    <div class="d-flex w-100 justify-content-between pedidos">
+      <h5 class="mb-1"><?php echo $rows["pedido"];?></h5> 
+      <p class="mb-1"><?php echo $rows["nomeEscola"];?></p>    
+      <p class="mb-1"><?php echo $rows["enderecoEscola"];?></p>
     </div>
-    <p class="mb-1">Nome da escola e endereço</small>
+   
+   
   </a>
   
 </div>
-</section>
 
+           
+           <?php 
+                } 
+            } else {
+                echo "nenhum produto cadastrado";
+            }
+            ?>
+
+</section>
 </main>
 
 <?php include_once('./footer.php')?>
