@@ -1,0 +1,157 @@
+
+body {
+   background-image:url(../img/bgproj1-01.png);
+    background-attachment: fixed; 
+    background-color: #000000;
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+    
+}   
+
+.flx-mom {
+    align-content: center;
+    align-items: center;
+    background: #03989E;
+    background: -moz-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: -webkit-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: linear-gradient(135deg, rgba(3, 152, 158, 0.8) 0%, rgba(28, 110, 164, 0.5) 45%, rgba(252, 206, 93, 0.8) 100%);
+   /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    
+}
+
+.flx-mom-2 {
+    align-content: center;
+    align-items: center;
+    background: #03989E;
+    background: -moz-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: -webkit-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: linear-gradient(135deg, rgba(3, 152, 158, 0.8) 0%, rgba(28, 110, 164, 0.5) 45%, rgba(252, 206, 93, 0.8) 100%);
+   /* background-color: rgba(255, 255, 255, 0.2); */ 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.flx-mom-3 {
+    align-content: center;
+    align-items: center;
+    background: #03989E;
+    background: -moz-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: -webkit-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: linear-gradient(135deg, rgba(3, 152, 158, 0.8) 0%, rgba(28, 110, 164, 0.5) 45%, rgba(252, 206, 93, 0.8) 100%);
+   /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.flx-bby-1 img {
+width: 500px;
+margin: 10px;
+
+}
+
+
+.flx-bby-2 {
+    background-color: rgba(252, 206, 93, 0.9);
+    border: double #03989E 4px;
+    border-radius: 5px;    
+    color:rgb(0, 0, 0);
+    font-family: 'Lexend Mega', sans-serif;
+    line-height: 25px;
+    margin: auto;
+    padding: 20px;
+    text-align:center;
+    transition: ease-in-out 2s;
+    width: 50%;
+   
+}
+
+.flx-bby-2:hover {
+    box-shadow: 5px 5px 15px 5px #7391f5;
+    
+}
+
+.flx-bby-3 {
+
+    background-color: rgba(252, 206, 93, 0.9);
+    border: double #03989E 4px;
+    border-radius: 5px;  
+    color:rgb(0, 0, 0);
+    font-family: 'Lexend Mega', sans-serif;
+    line-height: 25px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+    transition: ease-in-out 2s;
+    width: 50%;
+    
+}
+
+.flx-bby-3:hover {
+    box-shadow: 5px 5px 15px 5px #7391f5;
+    
+}
+
+.flx-bby-4 {
+    background-color: rgba(252, 206, 93, 0.9);
+    border: double #03989E 4px;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    font-family: 'Lexend Mega', sans-serif;
+    line-height: 25px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+    transition: ease-in-out 2s;
+    width: 50%;
+  
+}
+
+.flx-bby-4:hover {
+    box-shadow: 5px 5px 15px 5px #7391f5;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Nunito+Sans&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .flx-bby-1 img {
+        width: 300px;
+        
+        }
+        .flx-bby-4 {
+            width: fit-content;
+            /*font-size: 10pt;*/
+        }
+
+        .flx-bby-3 {
+            width: fit-content;
+           
+            /*font-size: 10pt;*/
+        }
+        .flx-bby-2 {
+            width: fit-content;
+            /*font-size: 10pt;*/
+        }
+  }

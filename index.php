@@ -6,7 +6,7 @@
     <title>Página inicial</title>
     
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/index.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/index2.css" type="text/css">
 </head>
 <body>
     <?php include_once('./navbar.php')?>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="carousel-item">
-      <img class="d-block w-100  posicao" src="./assets/img/meninocomnote.png" alt="Terceiro Slide">
+      <img class="d-block w-100  posicao" src="./assets/img/meninocomnote.jpg" alt="Terceiro Slide">
       <p class="text-carousel">A <b>pessoa doadora se cadastra e encontra dentro da lista de pedidos algo que pode doar.</b> Seleciona o pedido de um estudante e <b>leva o item até a escola para a entrega.</b> <br> O aluno que fez o pedido é notificado da doação e <b>busca o aparelho em sua escola</b>.</p>
       <a href='https://br.freepik.com/fotos/escola'>Escola foto criado por jcomp - br.freepik.com</a>
     </div>
