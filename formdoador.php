@@ -15,7 +15,12 @@ include_once('./doadorBD.php')
 </head>
 <body>
 <?php include_once('./navbar.php')?>
+
 <section class="container col-xl-4  estiloDoador ">
+  <div class="title">
+  <h2>Realize seu cadastro</h2>
+  <hr>
+  </div>
 <form method="post" action="">
   <div class="form-group">
 

@@ -3,54 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/index2.css" type="text/css">
+    
+    <title>Página inicial</title>
 </head>
 <body>
     <?php include_once('./navbar.php')?>
 
+<main>
+
+    <article>
+        <h1>Seja Bem-vindo(a)</h1>
+        <hr>
+        <p>DoaTech é uma plataforma totalmente gratuita. <br>
+        Nosso principal propósito é levar tecnologia para aqueles que precisam.</p>
+        <p>Criamos uma ponte entre doadores e alunos da rede pública que necessitam de aparelhos tecnológicos para os estudos em domicílio</p>
+        <hr>
+        <h4>Tem um computador ou tablet parado na sua casa? Doe para quem precisa!</h4>
+        <hr>
+        <h4>Seus alunos não tem a tecnologia necessária para os estudos? Faça parte do projeto e se cadastre em nossa plataforma!</h4>
+    </article> 
+
+    <aside class="how">
+        <h2> Quer saber como funciona?</h2>
+        <small>Continue lendo...</small>
+    </aside>
+
     <div class="container">
+        <section class="flx-mom">
+           
+            <div class="flx-bby-1">
+             <img src="./assets/img/escola.jpg" >
+            </div>
+            <div class="flx-bby-2"> A <b>escola interessada em tornar-se um ponto de coleta</b> <a href="./formescola.php">realiza o cadastro na plataforma</a>, desse modo <b>seus alunos podem realizar seus pedidos</b>.</div>
+        </section>
 
-    <article id="artigo">
-    <span>Doatech</span>
-    é uma plataforma <b>100% gratuita.</b> <br>
-    Nossa principal missão é levar a tecnologia à quem mais precisa.<br>
-    </article>
+        <section class="flx-mom-2">
+            <div class="flx-bby-3">O aluno que precisa de um item (um notebook, por exemplo) <b>recorre a equipe escolar e informa qual item precisa</b>.<br /> Um dos responsáveis (professores, direção escolar) faz uma triagem para certificar-se da real necessidade do aluno e <b>realiza o pedido na plataforma</b>.</div>
+             <div class="flx-bby-1">
+                <img src="./assets/img/estudantes.png" >
+            </div>
+        </section>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100 posicao" src="./assets/img/escola.jpg" alt="Primeiro Slide">
-      <figcaption class="text-carousel">A <b>escola interessada em tornar-se um ponto de coleta</b> realiza o cadastro na plataforma, desse modo seus alunos e alunas podem realizar o cadastro de seus pedidos.</figcaption>
+        <section class="flx-mom-3">
+            <div class="flx-bby-1">
+                <img src="./assets/img/meninocomnote.jpg" >
+               </div>
+               <div class="flx-bby-4"><b>A <a href="./formdoador.php">pessoa doadora se cadastra</a> e encontra dentro da lista de pedidos algo que pode doar.</b> Seleciona o pedido do aluno e <b>leva o item até a escola para a entrega</b>. A escola é notificada da doação e avisa ao <b>aluno para que busque o item na escola</b>.</div>
+        </section>
     </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100 posicao" src="./assets/img/estudantes.png" alt="Segundo Slide">
-      <p class="text-carousel">  Estudantes que <b>precisam de um item (um notebook, por exemplo)</b> fazem o <b>cadastro de seus pedidos</b> na plataforma e <b>informam de qual item precisam</b> e o nome da escola em que estudam.</p>
-      <a href='https://br.freepik.com/vetores/escola'>Escola vetor criado por pikisuperstar - br.freepik.com</a>
-    </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100  posicao" src="./assets/img/meninocomnote.jpg" alt="Terceiro Slide">
-      <p class="text-carousel">A <b>pessoa doadora se cadastra e encontra dentro da lista de pedidos algo que pode doar.</b> Seleciona o pedido de um estudante e <b>leva o item até a escola para a entrega.</b> <br> O aluno que fez o pedido é notificado da doação e <b>busca o aparelho em sua escola</b>.</p>
-      <a href='https://br.freepik.com/fotos/escola'>Escola foto criado por jcomp - br.freepik.com</a>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
-    <span class="sr-only">Anterior</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
-    <span class="sr-only">Próximo</span>
-  </a>
-</div>
-    </div>
+</main>
 
     <?php include_once('./footer.php')?>
+
 </body>
 </html>
-
-

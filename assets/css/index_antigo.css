@@ -1,0 +1,98 @@
+/* Estilo da antiga página Inicial */
+
+.carousel_titulo {
+    color: #477890;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+}
+
+#Contitulo {
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    color: #477890;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+#artigo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: #03989E;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#artigo span {
+    font-weight: 500;
+    
+}
+
+#artigo span:hover {
+    font-weight: 700;
+}
+
+ #myCarousel img{
+
+    width: 80%;
+    height: 50%;
+    border-radius: 10px 15px;
+    align-items: center;
+    margin: auto;
+} 
+
+.carousel-inner{
+    width: 50%;
+    margin: auto;
+}
+
+#myCarousel{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+}
+
+.posicao {
+display: inline-block;
+  position: relative;
+}
+.text-carousel{
+    position: absolute;
+   bottom: 80px;
+    right: 0px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    background-color: rgba(253, 230, 159, 0.8); 
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
+
+@media screen and (max-width: 600px) {
+    .text-carousel {
+        position: absolute;
+        bottom: 0px;
+        width: auto;
+        font-size: small;
+        display: flexbox;
+    }
+  }

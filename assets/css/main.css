@@ -1,4 +1,12 @@
-body {height: 100%;}
+body {
+   background-image: url(../img/bgdtech-01.png);
+   background-attachment: fixed;   
+   height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}   
 
 .backg{
     background-color: #03989E;
@@ -8,45 +16,50 @@ body {height: 100%;}
 .trick {
     border-bottom: solid 3px white;
 }
-.trick:hover{
+.trick:hover {
 
     border-bottom: solid 4px #FCCE5D;
 }
 
-
-
-.mensagens {
-
-    padding: 20px;
-    background-color: #03989E;
-    border: solid 2px #FCCE5D;
-    border-radius: 5px;
-    color: white;
-    margin-top:5%;
-    margin-bottom: 5%;
-    
+.drop {
+    color:#03989E;
 }
+
+.drop:hover{
+    background-color:#FCCE5D;
+    color: white;
+    font-weight: 700;
+}
+
+.title {
+   background-color: #FCCE5D;
+   border-radius: 5px;
+   color: rgb(0, 0, 0);
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: 10px;
+   padding: 10px;
+   text-align: center;
+
+
+}
+
+.title hr {
+
+    border-bottom: solid 2px white;
+    width: 50%;
+}
+
 .estiloDoador {
 
 padding: 20px;
 background-color: #03989E;
 border: solid 2px #FCCE5D;
 border-radius: 5px;
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
 color: white;
-margin-top:5%;
+margin-top: 10%;
 margin-bottom: 5%;
 
-}
-
-.estiloAluno{
-
-padding: 20px;
-background-color: #03989E;
-border: solid 2px #FCCE5D;
-border-radius: 5px;
-color: white;
-margin-top:5%;
-margin-bottom: 5%;
 }
 
 .estiloEscola{
@@ -55,19 +68,22 @@ padding: 20px;
 background-color: #03989E;
 border: solid 2px #FCCE5D;
 border-radius: 5px;
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
 color: white;
-margin-top:5%;
+margin-top:10%;
 margin-bottom: 5%;
 }
 
-.bg-drop{
-    color:#03989E;
-}
-
-.bg-drop:hover{
-    background-color:#FCCE5D;
-    color: white;
-    font-weight: 700;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
+
+@media only screen and (max-width: 750px) {
+
+    .estiloDoador {
+        margin-top: 120px;
+    }
+
+    .estiloEscola {
+        margin-top: 120px;
+    }
+}

@@ -15,7 +15,7 @@
 </html>
 
 <nav class="navbar navbar-expand-lg navbar-light backg shadow fixed-top">
-        <a class="navbar-brand" href="index2.php"><img src="./assets/img/doatech.png" width="120" height="40"></a>
+        <a class="navbar-brand" href="index.php"><img src="./assets/img/doatech.png" width="120" height="40"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,16 +23,16 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item trick">
-              <a class="nav-link text-white" href="index2.php">Página inicial<span class="sr-only">(página atual)</span></a>
+              <a class="nav-link text-white" href="index.php">Página inicial<span class="sr-only">(página atual)</span></a>
             </li>
             
             <li class="nav-item trick dropdown">
               <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cadastre-se
               </a>
-              <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                <a class="dropdown-item bg-drop" href="./formescola.php">Cadastro escola</a>               
-                <a class="dropdown-item bg-drop" href="./formdoador.php">Cadastro doador</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item drop" href="./formescola.php">Cadastro escola</a>               
+                <a class="dropdown-item drop" href="./formdoador.php">Cadastro doador</a>
               </div>
             </li>
           <li class="nav-item trick">

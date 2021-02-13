@@ -16,6 +16,10 @@ include_once('./escolaBD.php');
 <?php include_once('./navbar.php')?>
 
 <section class="container col-xl-4 estiloEscola">
+<div class="title">
+  <h2>Realize seu cadastro</h2>
+  <hr>
+  </div>
 <form method="post" action="">
   <div class="form-group">
 
