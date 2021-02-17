@@ -35,7 +35,7 @@ body {
    background-color: #FCCE5D;
    border-radius: 5px;
    color: rgb(0, 0, 0);
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Lexend Mega', sans-serif;
    margin-bottom: 10px;
    padding: 10px;
    text-align: center;
@@ -49,6 +49,7 @@ body {
     width: 50%;
 }
 
+/*Estilo dos forms de cadastro */
 .estiloDoador {
 
 padding: 20px;
@@ -57,6 +58,8 @@ border: solid 2px #FCCE5D;
 border-radius: 5px;
 box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
 color: white;
+font-family: 'Montserrat', sans-serif;
+
 margin-top: 10%;
 margin-bottom: 5%;
 
@@ -70,12 +73,13 @@ border: solid 2px #FCCE5D;
 border-radius: 5px;
 box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
 color: white;
+font-family: 'Montserrat', sans-serif;
 margin-top:10%;
 margin-bottom: 5%;
 }
+/* Fim dos forms de cadastro*/ 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
 
 @media only screen and (max-width: 750px) {
 

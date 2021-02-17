@@ -1,7 +1,7 @@
 /* Estilo da Página Fale Conosco*/
 
 .bdy {
-    height: 70vh;
+    height: 100vh;
 }
 
 .body-cont {
@@ -15,16 +15,17 @@
 }
 
 .mensagens {
+   
+background-color: #03989E;
+border: solid 2px #FCCE5D;
+border-radius: 5px;
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
+color: white;
+font-family: 'Montserrat', sans-serif;
+margin-top: 10%;
+margin-bottom: 5%;
+padding: 20px;
 
-    padding: 20px;
-    background-color: #03989E;
-    border: solid 2px #FCCE5D;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
-    color: white;
-    margin-top:10%;
-    margin-bottom: 5%;
-    
 }
 
 .mensagens button {
@@ -32,7 +33,7 @@
     margin-top: 10px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
+
 
 @media only screen and (max-width: 750px) {
 

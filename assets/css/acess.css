@@ -1,28 +1,99 @@
+/* Estilo da página de acesso do DOADOR */
+
 .intro {
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Montserrat', sans-serif;   
     margin: 20px 0px 20px 0px;
     text-align: center;
     
 }
 
 .margens {
+    margin-top: 25px;
     margin-bottom: 80px;
 
 }
 
-.pedidos {
+.lista {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listaPedidos {
     background-color: #FDE69F;
     border: solid 2px #03989E;
     border-radius: 10px;
     color:black;
     margin-bottom: 5px;
+    padding: 20px;
+   
+
+}
+
+.listaPedidos:hover {
+    color: #03989E;
+    box-shadow: 5px 5px 15px 5px rgba(248, 245, 245, 0.56);
+    
+}
+
+
+/*Fim*/
+
+/* Estilo da página de acesso da ESCOLA */
+
+.escolaPedidos {
+    align-content: center;
+    align-items: center;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px ;
     padding: 50px;
-
 }
 
-.pedidos p {
-    font-family: 'Lato', sans-serif;
-      
+.infos {
+
+    background: #03989E;
+    background: -moz-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: -webkit-linear-gradient(-45deg, #03989E 0%, #1C6EA4 45%, #FCCE5D 100%);
+    background: linear-gradient(135deg, rgba(3, 152, 158, 0.8) 0%, rgba(28, 110, 164, 0.5) 45%, rgba(252, 206, 93, 0.8) 100%);  
+    border-radius: 10px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap');
+.infos h3 {
+
+    margin-top: 20px;
+    text-align: right;
+    
+}
+
+.infos small {
+    
+    font-weight: bold;
+   
+}
+
+.formPedido {
+
+    
+    background-color: #03989E;
+    border: solid 2px #FCCE5D;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /*margin-top: 20%;
+    margin-bottom: 5%;*/
+    padding: 20px;
+
+    }
+
+
+    
