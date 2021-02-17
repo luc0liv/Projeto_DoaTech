@@ -6,8 +6,8 @@ session_start();
 if(!isset($_SESSION['nome'])){
 
     if(isset($_POST['enviar'])){
-        $login = 'fulano';
-        $senha = "123456";
+
+       
         $quemEsD = 'doador';
         $quemEsE = 'escola';
         $quemEsA = 'aluno';
@@ -15,21 +15,74 @@ if(!isset($_SESSION['nome'])){
         $loginForm = $_POST['nome'];
         $senhaForm = $_POST['senha'];
 
+    
+
         $quemEsForm = $_POST['selectdes'];
 
+        if(($quemEsD == $quemEsForm)){
 
-            if(($login == $loginForm) && ($senha == $senhaForm) && ($quemEsD == $quemEsForm)){
+            $nome = "SELECT nomeDoador from doador where nomeDoador LIKE '$loginForm'";
+            $result1 = $conn->query($nome);
+           
+            $exmjson = array();	
+            $exmjson2 = array();	
+            while($row = $result1->fetch_array(MYSQLI_ASSOC))
+            {
+                array_push($exmjson, $row);
+                //var_dump($row);
+            }
+    
+          
+            $pwd = "SELECT senhaDoador from doador where senhaDoador LIKE '$senhaForm'";
+            $result2 = $conn->query($pwd);
+            while($row = $result2->fetch_array(MYSQLI_ASSOC))
+            {
+                array_push($exmjson2, $row);
+                //var_dump($row);
+            }
+    
+            $login = $exmjson[0]['nomeDoador'];
+            $senha = $exmjson2[0]['senhaDoador'];
+
+            if(($login == $loginForm) && ($senha == $senhaForm) ){
                 $_SESSION['nome'] = $login;
                 header('location: acessodoador.php');
             }
-            elseif(($login == $loginForm) && ($senha == $senhaForm) && ($quemEsA == $quemEsForm)){
-                $_SESSION['nome'] = $login;
-                header('location: logado3.php');
+        }
+            
+        elseif(($quemEsE == $quemEsForm)){
+
+            $nome = "SELECT emailEscola from escola where emailEscola LIKE '$loginForm'";
+            $result1 = $conn->query($nome);
+           
+            $exmjson = array();	
+            $exmjson2 = array();	
+            while($row = $result1->fetch_array(MYSQLI_ASSOC))
+            {
+                array_push($exmjson, $row);
+                //var_dump($row);
             }
-            elseif(($login == $loginForm) && ($senha == $senhaForm) && ($quemEsE == $quemEsForm)){
+    
+          
+            $pwd = "SELECT senhaEscola from escola where senhaEscola LIKE '$senhaForm'";
+            $result2 = $conn->query($pwd);
+            while($row = $result2->fetch_array(MYSQLI_ASSOC))
+            {
+                array_push($exmjson2, $row);
+                //var_dump($row);
+            }
+    
+            $login = $exmjson[0]['nomeEscola'];
+            $senha = $exmjson2[0]['senhaEscola'];
+
+            if(($login == $loginForm) && ($senha == $senhaForm)){
                 $_SESSION['nome'] = $login;
                 header('location: logado2.php');
             }
+        }
+            
+
+
             else{
                 echo("Dados inválidos !");
             }

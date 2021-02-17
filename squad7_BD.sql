@@ -1,63 +1,18 @@
--- phpMyAdmin SQL Dump
--- version 5.0.3
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Tempo de geração: 01-Fev-2021 às 21:55
--- Versão do servidor: 10.4.14-MariaDB
--- versão do PHP: 7.4.11
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
+CREATE DATABASE  IF NOT EXISTS `squad7`;
+USE `squad7`;
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Banco de dados: `squad7`
---
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `aluno`
---
-
-CREATE TABLE `aluno` (
-  `idAluno` int(11) NOT NULL,
-  `nomeAluno` varchar(45) NOT NULL,
-  `emailAluno` varchar(45) NOT NULL,
-  `senhaAluno` varchar(45) NOT NULL,
-  `escolaAluno` varchar(100) NOT NULL,
-  `direcaoAluno` varchar(45) NOT NULL,
-  `pedido` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Tabela contendo dados dos alunos atendidos';
-
---
--- Extraindo dados da tabela `aluno`
---
-
-INSERT INTO `aluno` (`idAluno`, `nomeAluno`, `emailAluno`, `senhaAluno`, `escolaAluno`, `direcaoAluno`, `pedido`) VALUES
-(1, 'Joana', 'joana@gmail.com', '1234567890', 'Escola Municipal ', '', 'Notebook'),
-(2, 'Joana', 'joana@gmail.com', '1234567890', 'Escola Municipal ', '', 'Notebook'),
-(3, 'Maria ', 'maria@gmail.com', '1234', 'Escola Municipal Maria Silva', '', 'Notebook');
-
--- --------------------------------------------------------
 
 --
 -- Estrutura da tabela `doador`
 --
+DROP TABLE IF EXISTS `doador`
 
 CREATE TABLE `doador` (
   `idDoador` int(11) NOT NULL,
   `nomeDoador` varchar(100) NOT NULL,
   `emailDoador` varchar(45) NOT NULL,
-  `senhaDoador` varchar(45) NOT NULL,
-  `doacao` varchar(100) NOT NULL
+  `senhaDoador` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='tabela contendo informações sobre o doador';
 
 --
@@ -141,12 +96,6 @@ CREATE TABLE `pedidos` (
 -- Índices para tabelas despejadas
 --
 
---
--- Índices para tabela `aluno`
---
-ALTER TABLE `aluno`
-  ADD PRIMARY KEY (`idAluno`) USING BTREE,
-  ADD KEY `pedido` (`pedido`);
 
 --
 -- Índices para tabela `doador`
@@ -177,15 +126,7 @@ ALTER TABLE `pedidos`
   ADD KEY `endereco_fk` (`enderecoEscola`),
   ADD KEY `nomeEscola` (`nomeEscola`);
 
---
--- AUTO_INCREMENT de tabelas despejadas
---
 
---
--- AUTO_INCREMENT de tabela `aluno`
---
-ALTER TABLE `aluno`
-  MODIFY `idAluno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de tabela `doador`
@@ -205,19 +146,7 @@ ALTER TABLE `escola`
 ALTER TABLE `faleconosco`
   MODIFY `id_mensagem` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
---
--- Restrições para despejos de tabelas
---
 
---
--- Limitadores para a tabela `pedidos`
---
-ALTER TABLE `pedidos`
-  ADD CONSTRAINT `endereco_fk` FOREIGN KEY (`enderecoEscola`) REFERENCES `escola` (`enderecoEscola`),
-  ADD CONSTRAINT `nome_fk` FOREIGN KEY (`nomeEscola`) REFERENCES `escola` (`nomeEscola`),
-  ADD CONSTRAINT `pedidos_fk` FOREIGN KEY (`pedido`) REFERENCES `aluno` (`pedido`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
