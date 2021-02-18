@@ -1,5 +1,4 @@
-<!--Página de acesso da Escola -->
-<?php include_once('./pedidoBD.php')?>
+<?php include_once('./pedidobd.php')?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -25,7 +24,8 @@ if(isset($_SESSION['nome'])){
 echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
 
 ?></div>
-<main class="escolaPedidos">
+<main>
+<section class="escolaPedidos">
 <section class="container col-xl-4 infos">
   <small>Algumas dicas...</small>
   <h3>Certifique-se de que o aluno realmente necessita do item solicitado.</h3>
@@ -55,8 +55,13 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
   <button type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>
 </section>
+</section>
 
-<section class="container col-xl-6 margens">
+<hr class="divider">
+<section class="container col-xl-6 p-5 rounded margens">
+  
+<h2>Lista de Pedidos</h2>
+<hr class="divider">
 
 <?php
             $sql = "select * from pedidos";
@@ -72,8 +77,15 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
   <div class="listaPedidos">
   
       <h5><?php echo $rows["pedido"];?></h5> 
-      <p><?php echo $rows["nomeEscola"];?></p>    
+      
+      <p><?php echo $rows["nomeEscola"];?></p>
+          
       <p><?php echo $rows["enderecoEscola"];?></p>
+      <div class="editDelete">
+        <!--https://www.youtube.com/watch?v=3xRMUDC74Cw-->
+      <a class="btn btn-warning" href="#">Editar</a>
+      <a class="btn btn-danger" name="delete" href="pedidoBD.php?delete=<?php echo $row['idPedidos'];?>">Apagar</a>
+    </div>
   </div>
 
   </a>

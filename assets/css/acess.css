@@ -1,23 +1,38 @@
 /* Estilo da página de acesso do DOADOR */
 
 .intro {
-    font-family: 'Montserrat', sans-serif;   
-    margin: 20px 0px 20px 0px;
+    font-family: 'Lexend Mega', sans-serif;   
+    margin: 100px 0px 20px 0px;
     text-align: center;
     
 }
 
 .margens {
+    background-color: rgba(253, 230, 159, 0.8);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.56);
     margin-top: 25px;
     margin-bottom: 80px;
+   
 
 }
 
+.margens h2 {
+    font-family: 'Lexend Mega', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.divider{
+    border-bottom: solid 4px #FCCE5D;
+    width: 80%;
+}
+
 .lista {
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .listaPedidos {
@@ -36,6 +51,7 @@
     box-shadow: 5px 5px 15px 5px rgba(248, 245, 245, 0.56);
     
 }
+
 
 
 /*Fim*/
@@ -94,6 +110,8 @@
     padding: 20px;
 
     }
+
+    
 
 
     

@@ -13,4 +13,11 @@ if(isset($_POST['pedido']) && isset($_POST['nomeEscola']) && isset($_POST['ender
   $result = $conn->query($sql);
 
 }
+
+if (isset($_GET['delete'])){
+  $idPedidos = $_GET['delete'];
+
+  $sql = "delete from pedidos where idPedidos=$idPedidos";
+  $result = $conn->query($sql);
+}
 ?>

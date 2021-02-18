@@ -19,9 +19,12 @@ aqui ficam os pedidos dos alunos para que o doador escolha aquilo que vai doar.-
 <?php include_once('./navbar.php')?>
 
 <main>
-<div class="intro"><h4>Pedidos dos alunos</h4></div>
+<div class="intro">
+  <h2>Pedidos dos alunos</h2>
+</div>
+<hr class="divider">
 
-<section class="container col-xl-6 margens">
+<section class="container col-xl-6 p-5 rounded margens">
 
 <?php
             $sql = "select * from pedidos";
