@@ -1,5 +1,6 @@
 <!--Página de acesso da Escola -->
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -50,6 +51,39 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
   
   <button type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>
+</section>
+
+<section class="container col-xl-6 margens">
+
+<?php
+            $sql = "select * from pedidos";
+            $result = $conn-> query($sql);
+            
+            if ($result->num_rows > 0){
+                while($rows = $result->fetch_assoc()){
+                     ?>
+        
+           
+<a class="lista">
+
+  <div class="listaPedidos">
+  
+      <h5><?php echo $rows["pedido"];?></h5> 
+      <p><?php echo $rows["nomeEscola"];?></p>    
+      <p><?php echo $rows["enderecoEscola"];?></p>
+  </div>
+
+  </a>
+  </div>
+
+           
+<?php 
+     } 
+ } else {
+     echo "nenhum pedido cadastrado";
+ }
+ ?>
+
 </section>
 
 </main>

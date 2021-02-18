@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/modal.css" type="text/css">
@@ -47,7 +48,7 @@
 
           }
            ?>
-           <a class="btn text-white btn-outline-warning my-2 my-sm-0" style="margin-right: 5px;" role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
+           <a class="btn text-white btn-outline-warning my-2 my-sm-0" style="margin-right: 5px; width: 200px" role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
            
           </div>
         </div>

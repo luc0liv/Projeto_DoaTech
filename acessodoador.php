@@ -63,7 +63,7 @@ aqui ficam os pedidos dos alunos para que o doador escolha aquilo que vai doar.-
            <?php 
                 } 
             } else {
-                echo "nenhum produto cadastrado";
+                echo "nenhum pedido cadastrado";
             }
             ?>
 

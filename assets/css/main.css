@@ -1,3 +1,11 @@
+:root {
+    --main-bg-color: #03989E;
+    --main-detail-color: #FCCE5D;
+    --secondary-detail-color: #ffffff;
+    --main-font-color: #000000;
+    --secondary-font-color: #ffffff;
+}
+
 body {
    background-image: url(../img/bgdtech-01.png);
    background-attachment: fixed;   
@@ -9,32 +17,33 @@ body {
 }   
 
 .backg{
-    background-color: #03989E;
+    background-color: var(--main-bg-color);
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .trick {
-    border-bottom: solid 3px white;
+    border-bottom: solid 3px var(--secondary-detail-color);
 }
 .trick:hover {
 
-    border-bottom: solid 4px #FCCE5D;
+    border-bottom: solid 4px var(--main-detail-color);
 }
 
 .drop {
-    color:#03989E;
+    color: var(--main-bg-color);
 }
 
 .drop:hover{
-    background-color:#FCCE5D;
-    color: white;
+    background-color: var(--main-detail-color);
+    color: var(--secondary-font-color);
     font-weight: 700;
 }
 
 .title {
-   background-color: #FCCE5D;
+   background-color: var(--main-detail-color);
    border-radius: 5px;
-   color: rgb(0, 0, 0);
+   color: var(--main-font-color);
    font-family: 'Lexend Mega', sans-serif;
    margin-bottom: 10px;
    padding: 10px;
@@ -45,7 +54,7 @@ body {
 
 .title hr {
 
-    border-bottom: solid 2px white;
+    border-bottom: solid 2px var(--secondary-detail-color);
     width: 50%;
 }
 
@@ -53,11 +62,11 @@ body {
 .estiloDoador {
 
 padding: 20px;
-background-color: #03989E;
-border: solid 2px #FCCE5D;
+background-color:var(--main-detail-color);
+border: solid 2px var(--secondary-detail-color);
 border-radius: 5px;
 box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
-color: white;
+color:var(--secondary-font-color);
 font-family: 'Montserrat', sans-serif;
 
 margin-top: 10%;
@@ -68,11 +77,11 @@ margin-bottom: 5%;
 .estiloEscola{
 
 padding: 20px;
-background-color: #03989E;
-border: solid 2px #FCCE5D;
+background-color: var(--main-bg-color);
+border: solid 2px var(--main-detail-color);
 border-radius: 5px;
 box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
-color: white;
+color: var(--secondary-font-color);
 font-family: 'Montserrat', sans-serif;
 margin-top:10%;
 margin-bottom: 5%;
