@@ -1,5 +1,5 @@
 <!--Página de acesso da Escola -->
-
+<?php include_once('./pedidoBD.php')?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -42,10 +42,13 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
   <div class="form-group">
 
   <label for="pedido">Pedido do aluno</label>
-    <input type="text" name="pedido" class="form-control" id="pedido" aria-describedby="pedidoAluno" placeholder="Escreva aqui o pedido do estudante (Exemplo: Um notebook)">
+    <input type="text" name="pedido" class="form-control" id="pedido" aria-describedby="pedido" placeholder="Escreva aqui o pedido do estudante (Exemplo: Um notebook)">
+
+    <label for="adress">Nome da Escola</label>
+    <input type="text" name="nomeEscola" class="form-control" id="adress" aria-describedby="enderecoEscola" placeholder="Escreva aqui o nome da que receberá o pedido">
 
     <label for="adress">Endereço da escola</label>
-    <input type="text" name="endereco" class="form-control" id="adress" aria-describedby="enderecoEscola" placeholder="Escreva aqui o endereço da escola que receberá o pedido">
+    <input type="text" name="enderecoEscola" class="form-control" id="adress" aria-describedby="enderecoEscola" placeholder="Escreva aqui o endereço da escola que receberá o pedido">
     
     
   

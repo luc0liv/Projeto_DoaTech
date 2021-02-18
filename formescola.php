@@ -39,7 +39,7 @@ include_once('./escolaBD.php');
     <label for="endereco">Endereço </label>
     <input type="text" name="enderecoEscola" class="form-control" id="enderecoEscola" aria-describedby="name" placeholder="Escreva aqui o endereço da Escola">
   </div>
-  <button type="submit" class="btn btn-outline-warning">Enviar</button>
+  <button type="submit" class="btn btn-outline-warning font-weight-bold">Enviar</button>
 </form>
 </section>
 

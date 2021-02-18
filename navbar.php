@@ -48,7 +48,7 @@
 
           }
            ?>
-           <a class="btn text-white btn-outline-warning my-2 my-sm-0" style="margin-right: 5px; width: 200px" role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
+           <a class="btn text-white btn-outline-warning my-2 my-sm-0 font-weight-bold" style="margin-right: 5px; width: 200px" role="button" type="button" 	 data-toggle="modal" data-target="#modalExemplo">Login</a>    
            
           </div>
         </div>

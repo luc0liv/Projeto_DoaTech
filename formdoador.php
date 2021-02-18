@@ -18,7 +18,7 @@ include_once('./doadorBD.php')
 <?php include_once('./navbar.php')?>
 
 <section class="container col-xl-4  estiloDoador ">
-  <div class="title">
+  <div class="title2">
   <h2>Realize seu cadastro</h2>
   <hr>
   </div>
@@ -35,7 +35,7 @@ include_once('./doadorBD.php')
     <input type="password" name="senhaDoador" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
   </div>
   
-  <button type="submit" class="btn btn-outline-warning">Enviar</button>
+  <button type="submit" class="btn btn-outline-info font-weight-bold">Enviar</button>
 </form>
 </section>
 
