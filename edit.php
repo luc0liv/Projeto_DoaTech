@@ -1,4 +1,4 @@
-<?php include_once('./pedidobd.php')?>
+<?php include_once('./pedidoBD.php')?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -29,8 +29,6 @@
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
     color: white;
     font-family: 'Montserrat', sans-serif;
-    /*margin-top: 20%;
-    margin-bottom: 5%;*/
     padding: 20px;" method="get" action="pedidoBD.php">
   <div class="form-group">
     <input type="hidden" name="id" value="<?php echo$rows['idPedidos']?>?>"  >
