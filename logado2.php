@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/acess.css" type="text/css">
-    <title>Bem-vinde</title>
+    <title>Bem-vindo</title>
 </head>
 <body>
 <?php include_once('./navbar.php')?>
@@ -83,8 +83,8 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
       <p><?php echo $rows["enderecoEscola"];?></p>
       <div class="editDelete">
         <!--https://www.youtube.com/watch?v=3xRMUDC74Cw-->
-      <a class="btn btn-warning" href="#">Editar</a>
-      <a class="btn btn-danger" name="delete" href="pedidoBD.php?delete=<?php echo $row['idPedidos'];?>">Apagar</a>
+      <a class="btn btn-warning" href="edit.php">Editar</a>
+      <a class="btn btn-danger" name="delete" href="pedidoBD.php?delete=<?php echo$rows['idPedidos']?>">Apagar</a>
     </div>
   </div>
 

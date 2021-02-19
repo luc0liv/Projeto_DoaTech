@@ -18,7 +18,7 @@ if(isset($_POST['nomeEscola']) && isset($_POST['emailEscola']) && isset($_POST['
   
   // $result = $conn->query($sql);
 
-  $sql = "insert into escola (nomeEscola, direcao, enderecoEscola, pedidoEscola, emailEscola, senhaEscola) values ('$nomeEscola','$direcao', '$enderecoEscola', ' ', '$emailEscola',  '$senhaEscola')";
+  $sql = "insert into escola (nomeEscola, direcao, enderecoEscola, emailEscola, senhaEscola) values ('$nomeEscola','$direcao', '$enderecoEscola', '$emailEscola',  '$senhaEscola')";
   $result = $conn->query($sql);
 
 }

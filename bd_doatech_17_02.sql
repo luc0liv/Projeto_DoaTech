@@ -22,7 +22,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `squad7`
 --
-
+CREATE DATABASE squad7;
+USE squad7;
 -- --------------------------------------------------------
 
 --
@@ -48,6 +49,10 @@ CREATE TABLE `doador` (
   `senhaDoador` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='tabela contendo informações sobre o doador';
 
+
+ALTER TABLE `squad7`.`doador` 
+CHANGE COLUMN `idDoador` `idDoador` INT NOT NULL AUTO_INCREMENT ,
+ADD PRIMARY KEY (`idDoador`);
 -- --------------------------------------------------------
 
 --
@@ -62,6 +67,11 @@ CREATE TABLE `escola` (
   `emailEscola` varchar(50) NOT NULL,
   `senhaEscola` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `squad7`.`escola` 
+CHANGE COLUMN `idEscola` `idEscola` INT NOT NULL AUTO_INCREMENT ,
+ADD PRIMARY KEY (`idEscola`);
+;
 
 -- --------------------------------------------------------
 
@@ -88,6 +98,11 @@ CREATE TABLE `pedidos` (
   `enderecoEscola` varchar(250) NOT NULL,
   `nomeEscola` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `squad7`.`pedidos` 
+CHANGE COLUMN `idPedidos` `idPedidos` INT NOT NULL AUTO_INCREMENT ,
+ADD PRIMARY KEY (`idPedidos`);
+;
 
 --
 -- Índices para tabelas despejadas
