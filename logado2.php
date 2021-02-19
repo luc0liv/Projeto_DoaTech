@@ -1,4 +1,6 @@
 <?php include_once('./pedidobd.php')?>
+<?php include_once('./doacaobd.php')?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -58,10 +60,12 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
 </section>
 
 <hr class="divider">
-<section class="container col-xl-6 p-5 rounded margens">
+
+<section class="d-lg-flex flex-row justify-content-around mb-5">
+<section class="container col-xl-6 p-5 mb-auto rounded margens">
   
-<h2>Lista de Pedidos</h2>
-<hr class="divider">
+<h2>Lista de Pedidos </h2>
+<hr class="divider2">
 
 <?php
             $sql = "select * from pedidos";
@@ -72,7 +76,7 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
                      ?>
         
            
-<a class="lista">
+
 
   <div class="listaPedidos">
   
@@ -88,7 +92,7 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
     </div>
   </div>
 
-  </a>
+ 
   </div>
 
            
@@ -101,6 +105,32 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
 
 </section>
 
+<section class="donation container col-xl-4 p-4  mb-auto rounded margens">
+<h2>Pedidos atendidos</h2>
+<hr class="divider2">
+<?php
+            $sql = "select * from doacao";
+            $result = $conn-> query($sql);
+            
+            if ($result->num_rows > 0){
+                while($rows = $result->fetch_assoc()){
+                     ?>
+
+<div class="listaPedidos">
+  
+  <h5><?php echo $rows["doacao"];?></h5> 
+  
+  <p><?php echo $rows["descricao"];?></p>
+      
+</div>
+<?php 
+     } 
+ } else {
+     echo "nenhum pedido cadastrado";
+ }
+ ?>
+</section>
+</section>
 </main>
 <?php include_once('./footer.php')?>
 </body>

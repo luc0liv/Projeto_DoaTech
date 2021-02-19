@@ -1,5 +1,5 @@
 <!--Página após o doador escolher o item que vai doar -->
-<?php include_once('./conexaobd.php')?>
+<?php include_once('./doacaobd.php')?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,7 +16,7 @@
 <body>
 <?php include_once('./navbar.php')?>
 
-<section class="container col-xl-4  estiloDoador ">
+<section class="container col-xl-4  estiloEscola ">
   <div class="title">
   <h2>Confirme sua doação</h2>
   <hr>
