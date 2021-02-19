@@ -1,4 +1,5 @@
 <?php include_once('./pedidoBD.php')?>
+<?php include_once('./navbar.php') ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,14 +21,14 @@
                      ?>
 
 
-<form style=" background-color: #03989E;
+<form class="container" style=" background-color: #03989E;
     border: solid 2px #FCCE5D;
     border-radius: 5px;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
     color: white;
     font-family: 'Montserrat', sans-serif;
-    /*margin-top: 20%;
-    margin-bottom: 5%;*/
+    margin-top: 10%;
+    margin-bottom: 10%;
     padding: 20px;" method="get" action="pedidoBD.php">
     <input type="hidden" name="id" value="<?php echo $idPedidos;?>">
 
@@ -43,5 +44,6 @@
   <button style="margin-top:5px" type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>
 
+<?php include_once('./footer.php')?>
 </body>
 </html>
