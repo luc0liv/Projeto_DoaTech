@@ -27,13 +27,10 @@ if (isset($_GET['id']) && isset($_GET['pedido']) && isset($_GET['nomeEscola']) &
   $nomeEscola = $_GET['nomeEscola'];
   $enderecoEscola = $_GET['enderecoEscola'];
   $idPedidos = $_GET['id'];
-//   UPDATE nome_tabela
-// SET CAMPO = "novo_valor"
-// WHERE CONDIÇÃO
 
-  $sql = "UPDATE from pedidos SET pedido = $pedido, nomeEscola = $nomeEscola, enderecoEscola = $enderecoEscola  where idPedidos=$idPedidos";
+  $sql = "UPDATE pedidos SET pedido = '$pedido', nomeEscola = '$nomeEscola', enderecoEscola = '$enderecoEscola'  where idPedidos='$idPedidos'";
   $result = $conn->query($sql);
-  include('logado2.php');
+  header('location: logado2.php');
 }
 
 ?>

@@ -86,8 +86,8 @@ echo '<a href="?logout" class="logout">Fazer Logout!</a>';*/
           
       <p><?php echo $rows["enderecoEscola"];?></p>
       <div class="editDelete">
-        <!--https://www.youtube.com/watch?v=3xRMUDC74Cw-->
-      <a class="btn btn-warning" href="edit.php">Editar</a>
+     
+      <a class="btn btn-warning" name="editar" href="edit.php?editar=<?php echo $rows['idPedidos'];?>" >Editar</a>
       <a class="btn btn-danger" name="delete" href="pedidoBD.php?delete=<?php echo$rows['idPedidos']?>">Apagar</a>
     </div>
   </div>

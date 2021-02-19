@@ -15,11 +15,8 @@
 <body>
 
 <?php
-            $sql = "select * from pedidos";
-            $result = $conn-> query($sql);
-            
-            if ($result->num_rows > 0){
-                while($rows = $result->fetch_assoc()){
+             $idPedidos = $_GET['editar'];
+             
                      ?>
 
 
@@ -29,9 +26,11 @@
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.56);
     color: white;
     font-family: 'Montserrat', sans-serif;
+    /*margin-top: 20%;
+    margin-bottom: 5%;*/
     padding: 20px;" method="get" action="pedidoBD.php">
-  <div class="form-group">
-    <input type="hidden" name="id" value="<?php echo$rows['idPedidos']?>?>"  >
+    <input type="hidden" name="id" value="<?php echo $idPedidos;?>">
+
     <label for="pedido">Pedido do aluno</label>
     <input type="text" name="pedido" class="form-control" id="pedido" aria-describedby="pedido" placeholder="Escreva aqui o pedido do estudante (Exemplo: Um notebook)">
 
@@ -40,17 +39,9 @@
 
     <label for="adress">Endereço da escola</label>
     <input type="text" name="enderecoEscola" class="form-control" id="adress" aria-describedby="enderecoEscola" placeholder="Escreva aqui o endereço da escola que receberá o pedido">
-    
-    
   
   <button style="margin-top:5px" type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>
 
-<?php 
-     } 
- } else {
-     echo "nenhum pedido cadastrado";
- }
- ?>
 </body>
 </html>
