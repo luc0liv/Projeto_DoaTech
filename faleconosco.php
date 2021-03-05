@@ -35,10 +35,10 @@ include_once('./faleconoscoBD.php');
     <input type="text" name="nome" class="form-control" id="nomeContato" aria-describedby="name" placeholder="Seu nome">
     
     <label for="emailContato">Endereço de email</label>
-    <input type="email" name="email" class="form-control" id="emailContato" aria-describedby="emailHelp" placeholder="Seu email">
+    <input type="email" name="email" class="form-control" id="emailContato" aria-describedby="emailHelp" placeholder="Seu email" required>
     
     <label for="msgContato">Mensagem</label>
-    <textarea name="mensagem" class="form-control" id="mensagemContato" aria-describedby="msg" placeholder="Escreva aqui sua mensagem"></textarea>
+    <textarea name="mensagem" class="form-control" id="mensagemContato" aria-describedby="msg" placeholder="Escreva aqui sua mensagem" required></textarea>
      <button type="submit" class="btn btn-outline-warning">Enviar</button>
 </form>
 </section>
