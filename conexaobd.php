@@ -1,8 +1,8 @@
 <?php
     $servername = "localhost"; //nome do seu servidor
     $database = "squad7"; //seu banco de dados
-    $username = "gabu"; //nome do usuário
-    $password = "123456"; //sua senha
+    $username = "root"; //nome do usuário
+    $password = ""; //sua senha
 
  
 

@@ -26,13 +26,13 @@ include_once('./doadorBD.php')
   <div class="form-group">
 
   <label for="nomedoador">Nome completo</label>
-    <input type="text" name="nomeDoador" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome">
+    <input type="text" name="nomeDoador" class="form-control" id="emaildoador" aria-describedby="name" placeholder="Seu nome" required>
 
     <label for="emaildoador">Endereço de email</label>
-    <input type="email" name="emailDoador" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email">
+    <input type="email" name="emailDoador" class="form-control" id="emaildoador" aria-describedby="emailHelp" placeholder="Seu email" required>
     
     <label for="exampleInputPassword1">Senha</label>
-    <input type="password" name="senhaDoador" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres">
+    <input type="password" name="senhaDoador" class="form-control" id="exampleInputPassword1" placeholder="Crie uma Senha com até 10 caracteres" required>
   </div>
   
   <button type="submit" class="btn btn-outline-info font-weight-bold">Enviar</button>
