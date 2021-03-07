@@ -8,6 +8,7 @@ include_once('./faleconoscoBD.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/contato.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
@@ -32,22 +33,23 @@ include_once('./faleconoscoBD.php');
   <div class="form-group">
 
   <label for="nomeContato">Nome</label>
-    <input type="text" name="nome" class="form-control" id="nomeContato" aria-describedby="name" placeholder="Seu nome">
+    <input type="text" name="nome" class="form-control" id="nomeContato" aria-describedby="name" placeholder="Seu nome" required>
     
     <label for="emailContato">Endereço de email</label>
-    <input type="email" name="email" class="form-control" id="emailContato" aria-describedby="emailHelp" placeholder="Seu email" required>
+    <input type="email" name="email" class="form-control" id="emailContato" aria-describedby="emailHelp" placeholder="Seu email" required >
     
     <label for="msgContato">Mensagem</label>
-    <textarea name="mensagem" class="form-control" id="mensagemContato" aria-describedby="msg" placeholder="Escreva aqui sua mensagem" required></textarea>
-     <button type="submit" class="btn btn-outline-warning">Enviar</button>
+    <textarea name="mensagem" class="form-control" id="mensagemContato" aria-describedby="msg" placeholder="Escreva aqui sua mensagem" required ></textarea>
+     <button type="submit" class="btn btn-outline-warning" id="send" onclick="Enviar()">Enviar</button>
 </form>
 </section>
-
 
 </main>
 
 
 <?php include_once('./footer.php')?>
 
+<script src="./assets/alerts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js" integrity="sha512-RdSPYh1WA6BF0RhpisYJVYkOyTzK4HwofJ3Q7ivt/jkpW6Vc8AurL1R+4AUcvn9IwEKAPm/fk7qFZW3OuiUDeg==" crossorigin="anonymous"></script>
 </body>
 </html>
